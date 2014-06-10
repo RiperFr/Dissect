@@ -2,23 +2,23 @@
 
 namespace Riper\Dissect\Commands;
 
-use Ilius\Component\CoverageReportMerge\CodeCoverageFactory;
-use Ilius\Component\CoverageReportMerge\CoverageReportMergeService;
-use Ilius\Component\CoverageReportMerge\WriterFactory;
+use Riper\Dissect\Factories\CodeCoverageFactory;
+use Riper\Dissect\Factories\WriterFactory;
+use Riper\Dissect\Services\CoverageMergeService;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
 
-class CoverageReportMergeCommand extends Command
+class CoverageMergeCommand extends Command
 {
     /**
      * Configures the current command.
      */
     protected function configure()
     {
-        $this->setName('coverage')
+        $this->setName('coverage:merge')
             ->addArgument(
                 'directory',
                 InputArgument::REQUIRED,
@@ -60,7 +60,7 @@ class CoverageReportMergeCommand extends Command
     {
 
 
-        $CoverageReportMerge = new CoverageReportMergeService(new WriterFactory(), new CodeCoverageFactory());
+        $CoverageReportMerge = new CoverageMergeService(new WriterFactory(), new CodeCoverageFactory());
 
 
         if ($input->getOption('coverageDirectory')) {

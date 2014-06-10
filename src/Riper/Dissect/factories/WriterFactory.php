@@ -1,6 +1,6 @@
 <?php
 
-namespace Ilius\Component\CoverageReportMerge;
+namespace Riper\Dissect\Factories;
 
 class WriterFactory
 {

@@ -1,8 +1,9 @@
 <?php
-namespace Ilius\Component\CoverageReportMerge;
+namespace Riper\Dissect;
 
 
-use Ilius\Component\CoverageReportMerge\Command\CoverageReportMergeCommand;
+
+use Riper\Dissect\Commands\CoverageMergeCommand;
 use Symfony\Component\Console\Application as AbstractApplication;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\ArgvInput;
@@ -22,9 +23,8 @@ class Application extends AbstractApplication
 {
     public function __construct()
     {
-        parent::__construct('CoverageReportMerge');
-
-        $this->add(new CoverageReportMergeCommand());
+        parent::__construct('Dissect','dev');
+        $this->add(new CoverageMergeCommand());
     }
 
     /**
@@ -40,7 +40,7 @@ class Application extends AbstractApplication
         if (!$input->hasParameterOption('--quiet')) {
             $output->write(
                 sprintf(
-                    "CoverageReportMerge %s by Meetic-corp.\n\n",
+                    "Dissect %s by Riper.\n\n",
                     $this->getVersion()
                 )
             );

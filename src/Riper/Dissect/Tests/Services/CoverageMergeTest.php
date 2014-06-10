@@ -35,7 +35,7 @@ class CoverageMergeTest extends \PHPUnit_Framework_TestCase
 
     protected function setUp()
     {
-        $this->WriterFactoryMock = $this->getMockBuilder('\Ilius\Component\CoverageReportMerge\WriterFactory')
+        $this->WriterFactoryMock = $this->getMockBuilder('\Riper\Dissect\Factories\WriterFactory')
             ->disableOriginalConstructor()
             ->getMock();
 
@@ -44,7 +44,7 @@ class CoverageMergeTest extends \PHPUnit_Framework_TestCase
             ->getMock();
 
         $this->CodeCoverageFactoryMock = $this->getMockBuilder(
-            '\Ilius\Component\CoverageReportMerge\CodeCoverageFactory'
+            '\Riper\Dissect\Factories\CodeCoverageFactory'
         )   ->disableOriginalConstructor()
             ->getMock();
 
@@ -111,6 +111,8 @@ class CoverageMergeTest extends \PHPUnit_Framework_TestCase
         mkdir($tempfile);
         if (is_dir($tempfile)) {
             return $tempfile;
+        } else {
+            return '/tmp/';
         }
     }
 
@@ -118,8 +120,8 @@ class CoverageMergeTest extends \PHPUnit_Framework_TestCase
     public function testGenerateByManuallyAddingReports()
     {
 
-        $this->CoverageReportMerge->addCoverageReport(__DIR__ . '/assets/Controllers.cov');
-        $this->CoverageReportMerge->addCoverageReport(__DIR__ . '/assets/Factory.cov');
+        $this->CoverageReportMerge->addCoverageReport(__DIR__ . '/../assets/Controllers.cov');
+        $this->CoverageReportMerge->addCoverageReport(__DIR__ . '/../assets/Factory.cov');
 
         //With two coverage report to merge, two call to the function "merge"
         $this->CodeCoverageMock->expects($this->exactly(2))->method('merge');
@@ -136,7 +138,7 @@ class CoverageMergeTest extends \PHPUnit_Framework_TestCase
     public function testGenerateByFindingReportsInDirectoryRecursively()
     {
 
-        $this->CoverageReportMerge->findCoverageReport(__DIR__ . '/../assets/', true);
+        $this->CoverageReportMerge->findCoverageReport(__DIR__ . '/../assets/');
 
         $this->CodeCoverageMock->expects($this->exactly(3))->method('merge');
         $this->assertEquals(

@@ -1,7 +1,7 @@
 <?php
 $coverage = new PHP_CodeCoverage;
 $coverage->setData(array (
-  '/projects/api-services/src/Ilius/Bundle/SocialEvents/UgeBundle/Criterias/UgeSearchCriteria.php' => 
+  '/filipJFry/Futurama/Bundle/SocialEvents/UgeBundle/Criterias/UgeSearchCriteria.php' => 
   array (
     40 => 
     array (
@@ -249,7 +249,7 @@ $coverage->setData(array (
     ),
     342 => NULL,
   ),
-  '/projects/api-services/src/Ilius/Bundle/SocialEvents/UgeBundle/Entities/Participant.php' => 
+  '/filipJFry/Futurama/Bundle/SocialEvents/UgeBundle/Entities/Participant.php' => 
   array (
     48 => 
     array (
@@ -312,7 +312,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Member/ExclusionListBundle/Controller/ExclusionListController.php' => 
+  '/filipJFry/Futurama/Bundle/Member/ExclusionListBundle/Controller/ExclusionListController.php' => 
   array (
     44 => 
     array (
@@ -713,7 +713,7 @@ $coverage->setData(array (
     ),
     307 => NULL,
   ),
-  '/projects/api-services/src/Ilius/Bundle/SocialEvents/UgeBundle/Entities/Place.php' => 
+  '/filipJFry/Futurama/Bundle/SocialEvents/UgeBundle/Entities/Place.php' => 
   array (
     77 => 
     array (
@@ -932,7 +932,7 @@ $coverage->setData(array (
     ),
     313 => NULL,
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/EmailBundle/Entities/EmailQueueItem.php' => 
+  '/filipJFry/Futurama/Bundle/Common/EmailBundle/Entities/EmailQueueItem.php' => 
   array (
     33 => 
     array (
@@ -966,7 +966,7 @@ $coverage->setData(array (
     ),
     73 => NULL,
   ),
-  '/projects/api-services/src/Ilius/Bundle/SocialEvents/UgeBundle/Services/UgeService.php' => 
+  '/filipJFry/Futurama/Bundle/SocialEvents/UgeBundle/Services/UgeService.php' => 
   array (
     70 => 
     array (
@@ -1850,48 +1850,48 @@ $coverage->setData(array (
     ),
     604 => NULL,
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/DBAccessBundle/Services/DBAccessFactory.php' => 
+  '/filipJFry/Futurama/Bundle/Common/DBAccessBundle/Services/DBAccessFactory.php' => 
   array (
     28 => 
     array (
-      0 => 'Ilius\\Bundle\\Common\\DBAccessBundle\\Tests\\Services\\DBAcessFactoryTest::testGetConnectionShouldThrowAnExceptionWithAnUnknownSourceName',
-      1 => 'Ilius\\Bundle\\Common\\DBAccessBundle\\Tests\\Services\\DBAcessFactoryTest::testGetConnectionShouldRunTheGetConnectionMethodOfAbstractManagerRegistry',
+      0 => 'Futurama\\Bundle\\Common\\DBAccessBundle\\Tests\\Services\\DBAcessFactoryTest::testGetConnectionShouldThrowAnExceptionWithAnUnknownSourceName',
+      1 => 'Futurama\\Bundle\\Common\\DBAccessBundle\\Tests\\Services\\DBAcessFactoryTest::testGetConnectionShouldRunTheGetConnectionMethodOfAbstractManagerRegistry',
     ),
     29 => 
     array (
-      0 => 'Ilius\\Bundle\\Common\\DBAccessBundle\\Tests\\Services\\DBAcessFactoryTest::testGetConnectionShouldThrowAnExceptionWithAnUnknownSourceName',
-      1 => 'Ilius\\Bundle\\Common\\DBAccessBundle\\Tests\\Services\\DBAcessFactoryTest::testGetConnectionShouldRunTheGetConnectionMethodOfAbstractManagerRegistry',
+      0 => 'Futurama\\Bundle\\Common\\DBAccessBundle\\Tests\\Services\\DBAcessFactoryTest::testGetConnectionShouldThrowAnExceptionWithAnUnknownSourceName',
+      1 => 'Futurama\\Bundle\\Common\\DBAccessBundle\\Tests\\Services\\DBAcessFactoryTest::testGetConnectionShouldRunTheGetConnectionMethodOfAbstractManagerRegistry',
     ),
     30 => 
     array (
-      0 => 'Ilius\\Bundle\\Common\\DBAccessBundle\\Tests\\Services\\DBAcessFactoryTest::testGetConnectionShouldThrowAnExceptionWithAnUnknownSourceName',
-      1 => 'Ilius\\Bundle\\Common\\DBAccessBundle\\Tests\\Services\\DBAcessFactoryTest::testGetConnectionShouldRunTheGetConnectionMethodOfAbstractManagerRegistry',
+      0 => 'Futurama\\Bundle\\Common\\DBAccessBundle\\Tests\\Services\\DBAcessFactoryTest::testGetConnectionShouldThrowAnExceptionWithAnUnknownSourceName',
+      1 => 'Futurama\\Bundle\\Common\\DBAccessBundle\\Tests\\Services\\DBAcessFactoryTest::testGetConnectionShouldRunTheGetConnectionMethodOfAbstractManagerRegistry',
     ),
     41 => 
     array (
-      0 => 'Ilius\\Bundle\\Common\\DBAccessBundle\\Tests\\Services\\DBAcessFactoryTest::testGetConnectionShouldThrowAnExceptionWithAnUnknownSourceName',
-      1 => 'Ilius\\Bundle\\Common\\DBAccessBundle\\Tests\\Services\\DBAcessFactoryTest::testGetConnectionShouldRunTheGetConnectionMethodOfAbstractManagerRegistry',
+      0 => 'Futurama\\Bundle\\Common\\DBAccessBundle\\Tests\\Services\\DBAcessFactoryTest::testGetConnectionShouldThrowAnExceptionWithAnUnknownSourceName',
+      1 => 'Futurama\\Bundle\\Common\\DBAccessBundle\\Tests\\Services\\DBAcessFactoryTest::testGetConnectionShouldRunTheGetConnectionMethodOfAbstractManagerRegistry',
     ),
     42 => 
     array (
-      0 => 'Ilius\\Bundle\\Common\\DBAccessBundle\\Tests\\Services\\DBAcessFactoryTest::testGetConnectionShouldThrowAnExceptionWithAnUnknownSourceName',
+      0 => 'Futurama\\Bundle\\Common\\DBAccessBundle\\Tests\\Services\\DBAcessFactoryTest::testGetConnectionShouldThrowAnExceptionWithAnUnknownSourceName',
     ),
     43 => 
     array (
-      0 => 'Ilius\\Bundle\\Common\\DBAccessBundle\\Tests\\Services\\DBAcessFactoryTest::testGetConnectionShouldThrowAnExceptionWithAnUnknownSourceName',
+      0 => 'Futurama\\Bundle\\Common\\DBAccessBundle\\Tests\\Services\\DBAcessFactoryTest::testGetConnectionShouldThrowAnExceptionWithAnUnknownSourceName',
     ),
     44 => 
     array (
-      0 => 'Ilius\\Bundle\\Common\\DBAccessBundle\\Tests\\Services\\DBAcessFactoryTest::testGetConnectionShouldThrowAnExceptionWithAnUnknownSourceName',
+      0 => 'Futurama\\Bundle\\Common\\DBAccessBundle\\Tests\\Services\\DBAcessFactoryTest::testGetConnectionShouldThrowAnExceptionWithAnUnknownSourceName',
     ),
     45 => NULL,
     47 => 
     array (
-      0 => 'Ilius\\Bundle\\Common\\DBAccessBundle\\Tests\\Services\\DBAcessFactoryTest::testGetConnectionShouldRunTheGetConnectionMethodOfAbstractManagerRegistry',
+      0 => 'Futurama\\Bundle\\Common\\DBAccessBundle\\Tests\\Services\\DBAcessFactoryTest::testGetConnectionShouldRunTheGetConnectionMethodOfAbstractManagerRegistry',
     ),
     48 => NULL,
   ),
-  '/projects/api-services/src/Ilius/Bundle/SocialEvents/UgeBundle/EventListener/UgeListener.php' => 
+  '/filipJFry/Futurama/Bundle/SocialEvents/UgeBundle/EventListener/UgeListener.php' => 
   array (
     13 => 
     array (
@@ -1905,7 +1905,7 @@ $coverage->setData(array (
     ),
     21 => NULL,
   ),
-  '/projects/api-services/src/Ilius/Bundle/SocialEvents/UgeBundle/Entities/EventInstance.php' => 
+  '/filipJFry/Futurama/Bundle/SocialEvents/UgeBundle/Entities/EventInstance.php' => 
   array (
     64 => 
     array (
@@ -2112,7 +2112,7 @@ $coverage->setData(array (
     ),
     273 => NULL,
   ),
-  '/projects/api-services/src/Ilius/Bundle/Member/ExclusionListBundle/Entities/Exclusion.php' => 
+  '/filipJFry/Futurama/Bundle/Member/ExclusionListBundle/Entities/Exclusion.php' => 
   array (
     51 => 
     array (
@@ -2233,7 +2233,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Component/RouterTest/RouterTest.php' => 
+  '/filipJFry/Futurama/Component/RouterTest/RouterTest.php' => 
   array (
     26 => 
     array (
@@ -2428,7 +2428,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/SocialEvents/UgeBundle/Services/UgeDAO.php' => 
+  '/filipJFry/Futurama/Bundle/SocialEvents/UgeBundle/Services/UgeDAO.php' => 
   array (
     47 => 
     array (
@@ -4356,7 +4356,7 @@ $coverage->setData(array (
     ),
     1134 => NULL,
   ),
-  '/projects/api-services/src/Ilius/Bundle/SocialEvents/UgeBundle/Entities/Event.php' => 
+  '/filipJFry/Futurama/Bundle/SocialEvents/UgeBundle/Entities/Event.php' => 
   array (
     130 => 
     array (
@@ -4733,7 +4733,7 @@ $coverage->setData(array (
     ),
     538 => NULL,
   ),
-  '/projects/api-services/src/Ilius/Bundle/SocialEvents/UgeBundle/Entities/Recurrence.php' => 
+  '/filipJFry/Futurama/Bundle/SocialEvents/UgeBundle/Entities/Recurrence.php' => 
   array (
     44 => 
     array (
@@ -4870,7 +4870,7 @@ $coverage->setData(array (
     ),
     166 => NULL,
   ),
-  '/projects/api-services/src/Ilius/Bundle/Accounts/AccessRightsBundle/DependencyInjection/IliusBundleAccountsAccessRightsExtension.php' => 
+  '/filipJFry/Futurama/Bundle/Accounts/AccessRightsBundle/DependencyInjection/FuturamaBundleAccountsAccessRightsExtension.php' => 
   array (
     21 => 
     array (
@@ -4885,7 +4885,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Accounts/AccessRightsBundle/Services/AccessRightsDAO.php' => 
+  '/filipJFry/Futurama/Bundle/Accounts/AccessRightsBundle/Services/AccessRightsDAO.php' => 
   array (
     23 => 
     array (
@@ -4933,7 +4933,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Accounts/AccessRightsBundle/Services/AccessRightsService.php' => 
+  '/filipJFry/Futurama/Bundle/Accounts/AccessRightsBundle/Services/AccessRightsService.php' => 
   array (
     20 => 
     array (
@@ -4972,7 +4972,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Accounts/BoostBundle/Command/BoostPoolingCommand.php' => 
+  '/filipJFry/Futurama/Bundle/Accounts/BoostBundle/Command/BoostPoolingCommand.php' => 
   array (
     19 => 
     array (
@@ -5086,7 +5086,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Accounts/BoostBundle/Controller/BoostController.php' => 
+  '/filipJFry/Futurama/Bundle/Accounts/BoostBundle/Controller/BoostController.php' => 
   array (
     24 => 
     array (
@@ -5476,7 +5476,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Accounts/BoostBundle/Criterias/Boost.php' => 
+  '/filipJFry/Futurama/Bundle/Accounts/BoostBundle/Criterias/Boost.php' => 
   array (
     104 => 
     array (
@@ -5785,7 +5785,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Accounts/BoostBundle/DependencyInjection/Configuration.php' => 
+  '/filipJFry/Futurama/Bundle/Accounts/BoostBundle/DependencyInjection/Configuration.php' => 
   array (
     21 => 
     array (
@@ -5803,7 +5803,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Accounts/BoostBundle/DependencyInjection/IliusBundleAccountsBoostExtension.php' => 
+  '/filipJFry/Futurama/Bundle/Accounts/BoostBundle/DependencyInjection/FuturamaBundleAccountsBoostExtension.php' => 
   array (
     21 => 
     array (
@@ -5827,7 +5827,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Accounts/BoostBundle/Entities/Boost.php' => 
+  '/filipJFry/Futurama/Bundle/Accounts/BoostBundle/Entities/Boost.php' => 
   array (
     108 => 
     array (
@@ -6082,7 +6082,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Accounts/BoostBundle/Entities/BoostCounter.php' => 
+  '/filipJFry/Futurama/Bundle/Accounts/BoostBundle/Entities/BoostCounter.php' => 
   array (
     27 => 
     array (
@@ -6121,7 +6121,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Accounts/BoostBundle/Services/BoostDAO.php' => 
+  '/filipJFry/Futurama/Bundle/Accounts/BoostBundle/Services/BoostDAO.php' => 
   array (
     78 => 
     array (
@@ -7585,7 +7585,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Accounts/BoostBundle/Services/BoostService.php' => 
+  '/filipJFry/Futurama/Bundle/Accounts/BoostBundle/Services/BoostService.php' => 
   array (
     61 => 
     array (
@@ -8182,7 +8182,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Accounts/BoostBundle/Views/BoostRenderer.php' => 
+  '/filipJFry/Futurama/Bundle/Accounts/BoostBundle/Views/BoostRenderer.php' => 
   array (
     35 => 
     array (
@@ -8680,7 +8680,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Accounts/PermissionsBundle/Controller/PermissionsController.php' => 
+  '/filipJFry/Futurama/Bundle/Accounts/PermissionsBundle/Controller/PermissionsController.php' => 
   array (
     22 => 
     array (
@@ -8734,7 +8734,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Accounts/PermissionsBundle/DependencyInjection/Configuration.php' => 
+  '/filipJFry/Futurama/Bundle/Accounts/PermissionsBundle/DependencyInjection/Configuration.php' => 
   array (
     19 => 
     array (
@@ -8752,7 +8752,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Accounts/PermissionsBundle/DependencyInjection/IliusAccountsPermissionsExtension.php' => 
+  '/filipJFry/Futurama/Bundle/Accounts/PermissionsBundle/DependencyInjection/FuturamaAccountsPermissionsExtension.php' => 
   array (
     21 => 
     array (
@@ -8773,7 +8773,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Accounts/PermissionsBundle/Services/PermissionsService.php' => 
+  '/filipJFry/Futurama/Bundle/Accounts/PermissionsBundle/Services/PermissionsService.php' => 
   array (
     20 => 
     array (
@@ -8854,7 +8854,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Accounts/PermissionsBundle/Views/PermissionsRenderer.php' => 
+  '/filipJFry/Futurama/Bundle/Accounts/PermissionsBundle/Views/PermissionsRenderer.php' => 
   array (
     12 => 
     array (
@@ -8947,7 +8947,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/CustomCacheBundle/DependencyInjection/IliusCommonCustomCacheExtension.php' => 
+  '/filipJFry/Futurama/Bundle/Common/CustomCacheBundle/DependencyInjection/FuturamaCommonCustomCacheExtension.php' => 
   array (
     21 => 
     array (
@@ -8962,7 +8962,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/CustomCacheBundle/Services/CustomApcCache.php' => 
+  '/filipJFry/Futurama/Bundle/Common/CustomCacheBundle/Services/CustomApcCache.php' => 
   array (
     17 => 
     array (
@@ -9091,7 +9091,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/CustomProfilerBundle/DependencyInjection/IliusCommonCustomProfilerExtension.php' => 
+  '/filipJFry/Futurama/Bundle/Common/CustomProfilerBundle/DependencyInjection/FuturamaCommonCustomProfilerExtension.php' => 
   array (
     21 => 
     array (
@@ -9106,7 +9106,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/CustomProfilerBundle/RequestMatcher/MtcDebugRequestMatcher.php' => 
+  '/filipJFry/Futurama/Bundle/Common/CustomProfilerBundle/RequestMatcher/MtcDebugRequestMatcher.php' => 
   array (
     12 => 
     array (
@@ -9127,7 +9127,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/DBAccessBundle/DBAL/OTP/Connection.php' => 
+  '/filipJFry/Futurama/Bundle/Common/DBAccessBundle/DBAL/OTP/Connection.php' => 
   array (
     49 => 
     array (
@@ -9448,7 +9448,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/DBAccessBundle/DBAL/OTP/Driver.php' => 
+  '/filipJFry/Futurama/Bundle/Common/DBAccessBundle/DBAL/OTP/Driver.php' => 
   array (
     26 => 
     array (
@@ -9499,7 +9499,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/DBAccessBundle/DBAL/OTP/OTPWrapper.php' => 
+  '/filipJFry/Futurama/Bundle/Common/DBAccessBundle/DBAL/OTP/OTPWrapper.php' => 
   array (
     36 => 
     array (
@@ -9568,7 +9568,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/DBAccessBundle/DBAL/OTP/OraclePlatform.php' => 
+  '/filipJFry/Futurama/Bundle/Common/DBAccessBundle/DBAL/OTP/OraclePlatform.php' => 
   array (
     19 => 
     array (
@@ -9586,7 +9586,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/DBAccessBundle/DBAL/OTP/Statement.php' => 
+  '/filipJFry/Futurama/Bundle/Common/DBAccessBundle/DBAL/OTP/Statement.php' => 
   array (
     69 => 
     array (
@@ -10045,7 +10045,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/DBAccessBundle/DependencyInjection/Configuration.php' => 
+  '/filipJFry/Futurama/Bundle/Common/DBAccessBundle/DependencyInjection/Configuration.php' => 
   array (
     19 => 
     array (
@@ -10063,7 +10063,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/DBAccessBundle/DependencyInjection/IliusBundleCommonDBAccessExtension.php' => 
+  '/filipJFry/Futurama/Bundle/Common/DBAccessBundle/DependencyInjection/FuturamaBundleCommonDBAccessExtension.php' => 
   array (
     21 => 
     array (
@@ -10084,7 +10084,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/DBAccessBundle/Exception/OTPException.php' => 
+  '/filipJFry/Futurama/Bundle/Common/DBAccessBundle/Exception/OTPException.php' => 
   array (
     19 => 
     array (
@@ -10123,7 +10123,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/DBAccessBundle/Services/DBAccessService.php' => 
+  '/filipJFry/Futurama/Bundle/Common/DBAccessBundle/Services/DBAccessService.php' => 
   array (
     21 => 
     array (
@@ -10216,7 +10216,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/EmailBundle/DependencyInjection/Configuration.php' => 
+  '/filipJFry/Futurama/Bundle/Common/EmailBundle/DependencyInjection/Configuration.php' => 
   array (
     20 => 
     array (
@@ -10333,7 +10333,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/EmailBundle/DependencyInjection/IliusCommonEmailExtension.php' => 
+  '/filipJFry/Futurama/Bundle/Common/EmailBundle/DependencyInjection/FuturamaCommonEmailExtension.php' => 
   array (
     23 => 
     array (
@@ -10369,7 +10369,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/EmailBundle/Services/EmailQueueDAO.php' => 
+  '/filipJFry/Futurama/Bundle/Common/EmailBundle/Services/EmailQueueDAO.php' => 
   array (
     28 => 
     array (
@@ -10561,7 +10561,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/EmailBundle/Services/EmailQueueService.php' => 
+  '/filipJFry/Futurama/Bundle/Common/EmailBundle/Services/EmailQueueService.php' => 
   array (
     27 => 
     array (
@@ -10606,7 +10606,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/ErrorRendererBundle/DependencyInjection/IliusCommonErrorRendererExtension.php' => 
+  '/filipJFry/Futurama/Bundle/Common/ErrorRendererBundle/DependencyInjection/FuturamaCommonErrorRendererExtension.php' => 
   array (
     21 => 
     array (
@@ -10621,7 +10621,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/ErrorRendererBundle/Listener/ErrorExceptionListener.php' => 
+  '/filipJFry/Futurama/Bundle/Common/ErrorRendererBundle/Listener/ErrorExceptionListener.php' => 
   array (
     33 => 
     array (
@@ -10735,7 +10735,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/Controller/GeoController.php' => 
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/Controller/GeoController.php' => 
   array (
     62 => 
     array (
@@ -11512,7 +11512,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/DependencyInjection/IliusBundleCommonGeoExtension.php' => 
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/DependencyInjection/FuturamaBundleCommonGeoExtension.php' => 
   array (
     21 => 
     array (
@@ -11527,7 +11527,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/Entities/City.php' => 
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/Entities/City.php' => 
   array (
     79 => 
     array (
@@ -11806,7 +11806,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/Entities/Country.php' => 
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/Entities/Country.php' => 
   array (
     33 => 
     array (
@@ -11920,7 +11920,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/Entities/CountryInfo.php' => 
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/Entities/CountryInfo.php' => 
   array (
     93 => 
     array (
@@ -12322,7 +12322,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/Entities/Department.php' => 
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/Entities/Department.php' => 
   array (
     6 => 
     array (
@@ -12523,7 +12523,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/Entities/Region.php' => 
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/Entities/Region.php' => 
   array (
     46 => 
     array (
@@ -12673,7 +12673,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/Entities/Zipcode.php' => 
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/Entities/Zipcode.php' => 
   array (
     43 => 
     array (
@@ -12853,7 +12853,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/Filters/AbstractSqlSerializable.php' => 
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/Filters/AbstractSqlSerializable.php' => 
   array (
     24 => 
     array (
@@ -12886,7 +12886,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/Filters/CityFilter.php' => 
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/Filters/CityFilter.php' => 
   array (
     20 => 
     array (
@@ -13150,7 +13150,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/Filters/CountryFilter.php' => 
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/Filters/CountryFilter.php' => 
   array (
     23 => 
     array (
@@ -13252,7 +13252,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/Filters/CountryInfoFilter.php' => 
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/Filters/CountryInfoFilter.php' => 
   array (
     16 => 
     array (
@@ -13288,7 +13288,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/Filters/DepartmentFilter.php' => 
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/Filters/DepartmentFilter.php' => 
   array (
     20 => 
     array (
@@ -13528,7 +13528,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/Filters/RegionFilter.php' => 
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/Filters/RegionFilter.php' => 
   array (
     20 => 
     array (
@@ -13687,7 +13687,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/Filters/ZipcodeFilter.php' => 
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/Filters/ZipcodeFilter.php' => 
   array (
     19 => 
     array (
@@ -14086,7 +14086,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/Services/GeoDAO.php' => 
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/Services/GeoDAO.php' => 
   array (
     40 => 
     array (
@@ -14608,7 +14608,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/Services/GeoService.php' => 
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/Services/GeoService.php' => 
   array (
     39 => 
     array (
@@ -14959,7 +14959,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/Views/CityRenderer.php' => 
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/Views/CityRenderer.php' => 
   array (
     13 => 
     array (
@@ -15088,7 +15088,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/Views/CountryInfoRenderer.php' => 
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/Views/CountryInfoRenderer.php' => 
   array (
     13 => 
     array (
@@ -15175,7 +15175,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/Views/CountryRenderer.php' => 
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/Views/CountryRenderer.php' => 
   array (
     13 => 
     array (
@@ -15199,7 +15199,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/Views/DepartmentRenderer.php' => 
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/Views/DepartmentRenderer.php' => 
   array (
     13 => 
     array (
@@ -15283,7 +15283,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/Views/GeoRendererAbstract.php' => 
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/Views/GeoRendererAbstract.php' => 
   array (
     15 => 
     array (
@@ -15322,7 +15322,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/Views/RegionRenderer.php' => 
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/Views/RegionRenderer.php' => 
   array (
     13 => 
     array (
@@ -15370,7 +15370,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/Views/ZipcodeRenderer.php' => 
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/Views/ZipcodeRenderer.php' => 
   array (
     13 => 
     array (
@@ -15448,7 +15448,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoIpBundle/DependencyInjection/IliusCommonGeoIpExtension.php' => 
+  '/filipJFry/Futurama/Bundle/Common/GeoIpBundle/DependencyInjection/FuturamaCommonGeoIpExtension.php' => 
   array (
     21 => 
     array (
@@ -15463,7 +15463,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoIpBundle/Entities/Coordinate.php' => 
+  '/filipJFry/Futurama/Bundle/Common/GeoIpBundle/Entities/Coordinate.php' => 
   array (
     30 => 
     array (
@@ -15481,7 +15481,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoIpBundle/Entities/GeoIp.php' => 
+  '/filipJFry/Futurama/Bundle/Common/GeoIpBundle/Entities/GeoIp.php' => 
   array (
     69 => 
     array (
@@ -15505,7 +15505,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoIpBundle/Services/GeoIpDAO.php' => 
+  '/filipJFry/Futurama/Bundle/Common/GeoIpBundle/Services/GeoIpDAO.php' => 
   array (
     29 => 
     array (
@@ -15604,7 +15604,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoIpBundle/Services/GeoIpService.php' => 
+  '/filipJFry/Futurama/Bundle/Common/GeoIpBundle/Services/GeoIpService.php' => 
   array (
     31 => 
     array (
@@ -15661,7 +15661,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/HttpClientBundle/DependencyInjection/Configuration.php' => 
+  '/filipJFry/Futurama/Bundle/Common/HttpClientBundle/DependencyInjection/Configuration.php' => 
   array (
     19 => 
     array (
@@ -15679,7 +15679,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/HttpClientBundle/DependencyInjection/IliusCommonHttpClientExtension.php' => 
+  '/filipJFry/Futurama/Bundle/Common/HttpClientBundle/DependencyInjection/FuturamaCommonHttpClientExtension.php' => 
   array (
     21 => 
     array (
@@ -15700,7 +15700,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/HttpClientBundle/Services/HttpClientService.php' => 
+  '/filipJFry/Futurama/Bundle/Common/HttpClientBundle/Services/HttpClientService.php' => 
   array (
     17 => 
     array (
@@ -15712,7 +15712,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/RefListBundle/DependencyInjection/IliusBundleCommonRefListExtension.php' => 
+  '/filipJFry/Futurama/Bundle/Common/RefListBundle/DependencyInjection/FuturamaBundleCommonRefListExtension.php' => 
   array (
     21 => 
     array (
@@ -15727,7 +15727,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/RefListBundle/Entities/RefList.php' => 
+  '/filipJFry/Futurama/Bundle/Common/RefListBundle/Entities/RefList.php' => 
   array (
     61 => 
     array (
@@ -15910,7 +15910,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/RefListBundle/Services/RefListDAO.php' => 
+  '/filipJFry/Futurama/Bundle/Common/RefListBundle/Services/RefListDAO.php' => 
   array (
     38 => 
     array (
@@ -16033,7 +16033,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/RefListBundle/Services/RefListService.php' => 
+  '/filipJFry/Futurama/Bundle/Common/RefListBundle/Services/RefListService.php' => 
   array (
     183 => 
     array (
@@ -16126,7 +16126,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/RendererBundle/DependencyInjection/IliusBundleRendrerExtension.php' => 
+  '/filipJFry/Futurama/Bundle/Common/RendererBundle/DependencyInjection/FuturamaBundleRendrerExtension.php' => 
   array (
     21 => 
     array (
@@ -16141,7 +16141,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/RendererBundle/Entities/RendererAbstract.php' => 
+  '/filipJFry/Futurama/Bundle/Common/RendererBundle/Entities/RendererAbstract.php' => 
   array (
     12 => 
     array (
@@ -16192,7 +16192,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Common/RendererBundle/Exceptions/ExceptionRenderer.php' => 
+  '/filipJFry/Futurama/Bundle/Common/RendererBundle/Exceptions/ExceptionRenderer.php' => 
   array (
     18 => 
     array (
@@ -16279,7 +16279,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Happyends/HappyendsBundle/Controller/InterviewController.php' => 
+  '/filipJFry/Futurama/Bundle/Happyends/HappyendsBundle/Controller/InterviewController.php' => 
   array (
     29 => 
     array (
@@ -16882,7 +16882,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Happyends/HappyendsBundle/Controller/TestimonyController.php' => 
+  '/filipJFry/Futurama/Bundle/Happyends/HappyendsBundle/Controller/TestimonyController.php' => 
   array (
     30 => 
     array (
@@ -17551,7 +17551,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Happyends/HappyendsBundle/Criterias/InterviewSearchCriteria.php' => 
+  '/filipJFry/Futurama/Bundle/Happyends/HappyendsBundle/Criterias/InterviewSearchCriteria.php' => 
   array (
     74 => 
     array (
@@ -17818,7 +17818,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Happyends/HappyendsBundle/Criterias/TestimonySearchCriteria.php' => 
+  '/filipJFry/Futurama/Bundle/Happyends/HappyendsBundle/Criterias/TestimonySearchCriteria.php' => 
   array (
     89 => 
     array (
@@ -18112,7 +18112,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Happyends/HappyendsBundle/DependencyInjection/IliusBundleHappyendsHappyendsExtension.php' => 
+  '/filipJFry/Futurama/Bundle/Happyends/HappyendsBundle/DependencyInjection/FuturamaBundleHappyendsHappyendsExtension.php' => 
   array (
     21 => 
     array (
@@ -18127,7 +18127,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Happyends/HappyendsBundle/Entities/InterviewEntity.php' => 
+  '/filipJFry/Futurama/Bundle/Happyends/HappyendsBundle/Entities/InterviewEntity.php' => 
   array (
     116 => 
     array (
@@ -19048,7 +19048,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Happyends/HappyendsBundle/Entities/IntervieweeEntity.php' => 
+  '/filipJFry/Futurama/Bundle/Happyends/HappyendsBundle/Entities/IntervieweeEntity.php' => 
   array (
     43 => 
     array (
@@ -19624,7 +19624,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Happyends/HappyendsBundle/Entities/PhotoEntity.php' => 
+  '/filipJFry/Futurama/Bundle/Happyends/HappyendsBundle/Entities/PhotoEntity.php' => 
   array (
     26 => 
     array (
@@ -19663,7 +19663,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Happyends/HappyendsBundle/Entities/QuestionEntity.php' => 
+  '/filipJFry/Futurama/Bundle/Happyends/HappyendsBundle/Entities/QuestionEntity.php' => 
   array (
     32 => 
     array (
@@ -19720,7 +19720,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Happyends/HappyendsBundle/Entities/TestimonyCategoryEntity.php' => 
+  '/filipJFry/Futurama/Bundle/Happyends/HappyendsBundle/Entities/TestimonyCategoryEntity.php' => 
   array (
     21 => 
     array (
@@ -19792,7 +19792,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Happyends/HappyendsBundle/Entities/TestimonyEntity.php' => 
+  '/filipJFry/Futurama/Bundle/Happyends/HappyendsBundle/Entities/TestimonyEntity.php' => 
   array (
     37 => 
     array (
@@ -20554,7 +20554,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Happyends/HappyendsBundle/Entities/UserEntity.php' => 
+  '/filipJFry/Futurama/Bundle/Happyends/HappyendsBundle/Entities/UserEntity.php' => 
   array (
     59 => 
     array (
@@ -20947,7 +20947,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Happyends/HappyendsBundle/Services/InterviewDAO.php' => 
+  '/filipJFry/Futurama/Bundle/Happyends/HappyendsBundle/Services/InterviewDAO.php' => 
   array (
     38 => 
     array (
@@ -21802,7 +21802,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Happyends/HappyendsBundle/Services/InterviewService.php' => 
+  '/filipJFry/Futurama/Bundle/Happyends/HappyendsBundle/Services/InterviewService.php' => 
   array (
     38 => 
     array (
@@ -22327,7 +22327,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Happyends/HappyendsBundle/Services/TestimonyDAO.php' => 
+  '/filipJFry/Futurama/Bundle/Happyends/HappyendsBundle/Services/TestimonyDAO.php' => 
   array (
     95 => 
     array (
@@ -23347,7 +23347,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Happyends/HappyendsBundle/Services/TestimonyService.php' => 
+  '/filipJFry/Futurama/Bundle/Happyends/HappyendsBundle/Services/TestimonyService.php' => 
   array (
     43 => 
     array (
@@ -24010,7 +24010,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Happyends/HappyendsBundle/Views/InterviewRenderer.php' => 
+  '/filipJFry/Futurama/Bundle/Happyends/HappyendsBundle/Views/InterviewRenderer.php' => 
   array (
     25 => 
     array (
@@ -24844,7 +24844,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Happyends/HappyendsBundle/Views/TestimonyCategoryRenderer.php' => 
+  '/filipJFry/Futurama/Bundle/Happyends/HappyendsBundle/Views/TestimonyCategoryRenderer.php' => 
   array (
     12 => 
     array (
@@ -24958,7 +24958,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Happyends/HappyendsBundle/Views/TestimonyRenderer.php' => 
+  '/filipJFry/Futurama/Bundle/Happyends/HappyendsBundle/Views/TestimonyRenderer.php' => 
   array (
     14 => 
     array (
@@ -25561,7 +25561,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/MeeticEvents/ListsBundle/Controllers/WinkController.php' => 
+  '/filipJFry/Futurama/Bundle/MeeticEvents/ListsBundle/Controllers/WinkController.php' => 
   array (
     27 => 
     array (
@@ -25597,7 +25597,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/MeeticEvents/ListsBundle/DependencyInjection/Configuration.php' => 
+  '/filipJFry/Futurama/Bundle/MeeticEvents/ListsBundle/DependencyInjection/Configuration.php' => 
   array (
     19 => 
     array (
@@ -25615,7 +25615,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/MeeticEvents/ListsBundle/DependencyInjection/IliusBundleMeeticEventsListsExtension.php' => 
+  '/filipJFry/Futurama/Bundle/MeeticEvents/ListsBundle/DependencyInjection/FuturamaBundleMeeticEventsListsExtension.php' => 
   array (
     21 => 
     array (
@@ -25636,7 +25636,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/MeeticEvents/ListsBundle/Entities/Wink.php' => 
+  '/filipJFry/Futurama/Bundle/MeeticEvents/ListsBundle/Entities/Wink.php' => 
   array (
     32 => 
     array (
@@ -25711,7 +25711,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/MeeticEvents/ListsBundle/Services/WinkDAO.php' => 
+  '/filipJFry/Futurama/Bundle/MeeticEvents/ListsBundle/Services/WinkDAO.php' => 
   array (
     30 => 
     array (
@@ -25846,7 +25846,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/MeeticEvents/ListsBundle/Services/WinkEntityService.php' => 
+  '/filipJFry/Futurama/Bundle/MeeticEvents/ListsBundle/Services/WinkEntityService.php' => 
   array (
     36 => 
     array (
@@ -25900,7 +25900,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/MeeticEvents/ListsBundle/Services/WinkTaskService.php' => 
+  '/filipJFry/Futurama/Bundle/MeeticEvents/ListsBundle/Services/WinkTaskService.php' => 
   array (
     46 => 
     array (
@@ -26128,7 +26128,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/MeeticEvents/ListsBundle/Views/WinkListRenderer.php' => 
+  '/filipJFry/Futurama/Bundle/MeeticEvents/ListsBundle/Views/WinkListRenderer.php' => 
   array (
     23 => 
     array (
@@ -26272,7 +26272,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Member/ExclusionListBundle/DependencyInjection/IliusBundleMemberExclusionListExtension.php' => 
+  '/filipJFry/Futurama/Bundle/Member/ExclusionListBundle/DependencyInjection/FuturamaBundleMemberExclusionListExtension.php' => 
   array (
     21 => 
     array (
@@ -26287,7 +26287,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Member/ExclusionListBundle/Event/ExclusionEvent.php' => 
+  '/filipJFry/Futurama/Bundle/Member/ExclusionListBundle/Event/ExclusionEvent.php' => 
   array (
     19 => 
     array (
@@ -26308,7 +26308,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Member/ExclusionListBundle/Services/ExclusionListDAO.php' => 
+  '/filipJFry/Futurama/Bundle/Member/ExclusionListBundle/Services/ExclusionListDAO.php' => 
   array (
     35 => 
     array (
@@ -26731,7 +26731,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Member/ExclusionListBundle/Services/ExclusionListEvents.php' => 
+  '/filipJFry/Futurama/Bundle/Member/ExclusionListBundle/Services/ExclusionListEvents.php' => 
   array (
     19 => 
     array (
@@ -26761,7 +26761,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Member/ExclusionListBundle/Services/ExclusionListService.php' => 
+  '/filipJFry/Futurama/Bundle/Member/ExclusionListBundle/Services/ExclusionListService.php' => 
   array (
     55 => 
     array (
@@ -27265,7 +27265,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Member/ExclusionListBundle/Views/ExclusionListRenderer.php' => 
+  '/filipJFry/Futurama/Bundle/Member/ExclusionListBundle/Views/ExclusionListRenderer.php' => 
   array (
     16 => 
     array (
@@ -27475,7 +27475,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Member/PaymentBundle/Controller/PaymentController.php' => 
+  '/filipJFry/Futurama/Bundle/Member/PaymentBundle/Controller/PaymentController.php' => 
   array (
     17 => 
     array (
@@ -27505,7 +27505,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Member/PaymentBundle/DependencyInjection/IliusBundleMemberPaymentExtension.php' => 
+  '/filipJFry/Futurama/Bundle/Member/PaymentBundle/DependencyInjection/FuturamaBundleMemberPaymentExtension.php' => 
   array (
     21 => 
     array (
@@ -27520,7 +27520,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Member/PaymentBundle/Services/PaymentService.php' => 
+  '/filipJFry/Futurama/Bundle/Member/PaymentBundle/Services/PaymentService.php' => 
   array (
     10 => 
     array (
@@ -27544,7 +27544,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Member/PicturesBundle/Controller/BulkPictureController.php' => 
+  '/filipJFry/Futurama/Bundle/Member/PicturesBundle/Controller/BulkPictureController.php' => 
   array (
     33 => 
     array (
@@ -27784,7 +27784,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Member/PicturesBundle/Controller/PictureController.php' => 
+  '/filipJFry/Futurama/Bundle/Member/PicturesBundle/Controller/PictureController.php' => 
   array (
     37 => 
     array (
@@ -28234,7 +28234,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Member/PicturesBundle/DependencyInjection/IliusMemberPicturesExtension.php' => 
+  '/filipJFry/Futurama/Bundle/Member/PicturesBundle/DependencyInjection/FuturamaMemberPicturesExtension.php' => 
   array (
     21 => 
     array (
@@ -28258,7 +28258,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Member/PicturesBundle/Helpers/Link.php' => 
+  '/filipJFry/Futurama/Bundle/Member/PicturesBundle/Helpers/Link.php' => 
   array (
     12 => 
     array (
@@ -28315,7 +28315,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Member/PicturesBundle/Helpers/Validators.php' => 
+  '/filipJFry/Futurama/Bundle/Member/PicturesBundle/Helpers/Validators.php' => 
   array (
     25 => 
     array (
@@ -28843,7 +28843,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Member/PicturesBundle/Services/PictureService.php' => 
+  '/filipJFry/Futurama/Bundle/Member/PicturesBundle/Services/PictureService.php' => 
   array (
     63 => 
     array (
@@ -29350,7 +29350,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Member/PicturesBundle/Services/PicturesDAO.php' => 
+  '/filipJFry/Futurama/Bundle/Member/PicturesBundle/Services/PicturesDAO.php' => 
   array (
     27 => 
     array (
@@ -30631,7 +30631,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Member/PicturesBundle/Views/PictureLinksListRenderer.php' => 
+  '/filipJFry/Futurama/Bundle/Member/PicturesBundle/Views/PictureLinksListRenderer.php' => 
   array (
     19 => 
     array (
@@ -30742,7 +30742,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Member/PicturesBundle/Views/PictureListRenderer.php' => 
+  '/filipJFry/Futurama/Bundle/Member/PicturesBundle/Views/PictureListRenderer.php' => 
   array (
     17 => 
     array (
@@ -30784,7 +30784,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Member/PicturesBundle/Views/PictureRenderer.php' => 
+  '/filipJFry/Futurama/Bundle/Member/PicturesBundle/Views/PictureRenderer.php' => 
   array (
     19 => 
     array (
@@ -30913,7 +30913,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Member/ProfileBundle/Controller/ProfileController.php' => 
+  '/filipJFry/Futurama/Bundle/Member/ProfileBundle/Controller/ProfileController.php' => 
   array (
     20 => 
     array (
@@ -30970,7 +30970,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Member/ProfileBundle/DependencyInjection/IliusBundleMemberProfileExtension.php' => 
+  '/filipJFry/Futurama/Bundle/Member/ProfileBundle/DependencyInjection/FuturamaBundleMemberProfileExtension.php' => 
   array (
     21 => 
     array (
@@ -30985,7 +30985,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Member/ProfileBundle/Entities/ProfileLight.php' => 
+  '/filipJFry/Futurama/Bundle/Member/ProfileBundle/Entities/ProfileLight.php' => 
   array (
     110 => 
     array (
@@ -31348,7 +31348,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Member/ProfileBundle/Services/ProfileDAO.php' => 
+  '/filipJFry/Futurama/Bundle/Member/ProfileBundle/Services/ProfileDAO.php' => 
   array (
     42 => 
     array (
@@ -31570,7 +31570,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Member/ProfileBundle/Services/ProfileService.php' => 
+  '/filipJFry/Futurama/Bundle/Member/ProfileBundle/Services/ProfileService.php' => 
   array (
     41 => 
     array (
@@ -32104,7 +32104,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Member/ProfileBundle/Views/ProfileRenderer.php' => 
+  '/filipJFry/Futurama/Bundle/Member/ProfileBundle/Views/ProfileRenderer.php' => 
   array (
     15 => 
     array (
@@ -32212,7 +32212,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Controller/ActionController.php' => 
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Controller/ActionController.php' => 
   array (
     32 => 
     array (
@@ -32281,7 +32281,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Controller/RuleController.php' => 
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Controller/RuleController.php' => 
   array (
     62 => 
     array (
@@ -32698,7 +32698,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Controller/StateController.php' => 
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Controller/StateController.php' => 
   array (
     63 => 
     array (
@@ -33040,7 +33040,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/DependencyInjection/AmoExtension.php' => 
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/DependencyInjection/AmoExtension.php' => 
   array (
     21 => 
     array (
@@ -33058,7 +33058,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Entities/UserState.php' => 
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Entities/UserState.php' => 
   array (
     48 => 
     array (
@@ -33115,7 +33115,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Helpers/Configuration.php' => 
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Helpers/Configuration.php' => 
   array (
     14 => 
     array (
@@ -33163,7 +33163,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Helpers/Validators.php' => 
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Helpers/Validators.php' => 
   array (
     15 => 
     array (
@@ -33553,7 +33553,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Services/ActionDAO.php' => 
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Services/ActionDAO.php' => 
   array (
     57 => 
     array (
@@ -33769,7 +33769,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Services/ActionService.php' => 
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Services/ActionService.php' => 
   array (
     31 => 
     array (
@@ -33829,7 +33829,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Services/LogDAO.php' => 
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Services/LogDAO.php' => 
   array (
     62 => 
     array (
@@ -33922,7 +33922,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Services/LogService.php' => 
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Services/LogService.php' => 
   array (
     32 => 
     array (
@@ -33979,7 +33979,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Services/OperatorAbstract.php' => 
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Services/OperatorAbstract.php' => 
   array (
     17 => 
     array (
@@ -34012,7 +34012,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Services/OperatorEquals.php' => 
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Services/OperatorEquals.php' => 
   array (
     17 => 
     array (
@@ -34036,7 +34036,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Services/OperatorMatch.php' => 
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Services/OperatorMatch.php' => 
   array (
     25 => 
     array (
@@ -34099,7 +34099,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Services/OperatorMath.php' => 
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Services/OperatorMath.php' => 
   array (
     22 => 
     array (
@@ -34150,7 +34150,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Services/RuleDAO.php' => 
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Services/RuleDAO.php' => 
   array (
     59 => 
     array (
@@ -34870,7 +34870,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Services/RuleService.php' => 
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Services/RuleService.php' => 
   array (
     39 => 
     array (
@@ -35182,7 +35182,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Services/StateDAO.php' => 
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Services/StateDAO.php' => 
   array (
     58 => 
     array (
@@ -35356,7 +35356,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Services/StateService.php' => 
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Services/StateService.php' => 
   array (
     86 => 
     array (
@@ -36226,7 +36226,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Views/RuleListRenderer.php' => 
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Views/RuleListRenderer.php' => 
   array (
     16 => 
     array (
@@ -36325,7 +36325,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Views/RuleRenderer.php' => 
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Views/RuleRenderer.php' => 
   array (
     18 => 
     array (
@@ -36394,7 +36394,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Views/StateListRenderer.php' => 
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Views/StateListRenderer.php' => 
   array (
     15 => 
     array (
@@ -36493,7 +36493,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Views/StateRenderer.php' => 
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Views/StateRenderer.php' => 
   array (
     16 => 
     array (
@@ -36586,7 +36586,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/SocialEvents/UgeBundle/Controller/UgeController.php' => 
+  '/filipJFry/Futurama/Bundle/SocialEvents/UgeBundle/Controller/UgeController.php' => 
   array (
     28 => 
     array (
@@ -37447,7 +37447,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/SocialEvents/UgeBundle/DependencyInjection/IliusBundleSocialEventsUgeExtension.php' => 
+  '/filipJFry/Futurama/Bundle/SocialEvents/UgeBundle/DependencyInjection/FuturamaBundleSocialEventsUgeExtension.php' => 
   array (
     21 => 
     array (
@@ -37462,7 +37462,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/SocialEvents/UgeBundle/Views/UgeRenderer.php' => 
+  '/filipJFry/Futurama/Bundle/SocialEvents/UgeBundle/Views/UgeRenderer.php' => 
   array (
     15 => 
     array (
@@ -38035,7 +38035,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Bundle/SocialEvents/UgeBundle/Workflows/UgeWorkflow.php' => 
+  '/filipJFry/Futurama/Bundle/SocialEvents/UgeBundle/Workflows/UgeWorkflow.php' => 
   array (
     15 => 
     array (
@@ -38311,7 +38311,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Component/CoverageReportMerge/CoverageReportMerge.php' => 
+  '/filipJFry/Futurama/Component/CoverageReportMerge/CoverageReportMerge.php' => 
   array (
     22 => 
     array (
@@ -38344,7 +38344,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Component/CustomMemcache/Services/MemcachePatched.php' => 
+  '/filipJFry/Futurama/Component/CustomMemcache/Services/MemcachePatched.php' => 
   array (
     14 => 
     array (
@@ -38356,7 +38356,7 @@ $coverage->setData(array (
     array (
     ),
   ),
-  '/projects/api-services/src/Ilius/Component/RouterTest/YamlFileLoader.php' => 
+  '/filipJFry/Futurama/Component/RouterTest/YamlFileLoader.php' => 
   array (
     12 => 
     array (
@@ -38400,8 +38400,8 @@ $coverage->setData(array (
   ),
 ));
 $coverage->setTests(array (
-  'Ilius\\Bundle\\Common\\DBAccessBundle\\Tests\\Services\\DBAcessFactoryTest::testGetConnectionShouldThrowAnExceptionWithAnUnknownSourceName' => 0,
-  'Ilius\\Bundle\\Common\\DBAccessBundle\\Tests\\Services\\DBAcessFactoryTest::testGetConnectionShouldRunTheGetConnectionMethodOfAbstractManagerRegistry' => 0,
+  'Futurama\\Bundle\\Common\\DBAccessBundle\\Tests\\Services\\DBAcessFactoryTest::testGetConnectionShouldThrowAnExceptionWithAnUnknownSourceName' => 0,
+  'Futurama\\Bundle\\Common\\DBAccessBundle\\Tests\\Services\\DBAcessFactoryTest::testGetConnectionShouldRunTheGetConnectionMethodOfAbstractManagerRegistry' => 0,
   'UNCOVERED_FILES_FROM_WHITELIST' => NULL,
 ));
 
@@ -38409,259 +38409,259 @@ $filter = $coverage->filter();
 $filter->setBlacklistedFiles(array (
 ));
 $filter->setWhitelistedFiles(array (
-  '/projects/api-services/src/Ilius/Bundle/Accounts/AccessRightsBundle/DependencyInjection/IliusBundleAccountsAccessRightsExtension.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Accounts/AccessRightsBundle/IliusBundleAccountsAccessRightsBundle.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Accounts/AccessRightsBundle/Services/AccessRightsDAO.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Accounts/AccessRightsBundle/Services/AccessRightsInterface.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Accounts/AccessRightsBundle/Services/AccessRightsService.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Accounts/BoostBundle/Command/BoostPoolingCommand.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Accounts/BoostBundle/Controller/BoostController.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Accounts/BoostBundle/Criterias/Boost.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Accounts/BoostBundle/DependencyInjection/Configuration.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Accounts/BoostBundle/DependencyInjection/IliusBundleAccountsBoostExtension.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Accounts/BoostBundle/Entities/Boost.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Accounts/BoostBundle/Entities/BoostCounter.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Accounts/BoostBundle/Exceptions/BoostException.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Accounts/BoostBundle/Exceptions/InvalidParameterException.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Accounts/BoostBundle/Exceptions/ResultNotFoundException.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Accounts/BoostBundle/IliusBundleAccountsBoostBundle.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Accounts/BoostBundle/Services/BoostDAO.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Accounts/BoostBundle/Services/BoostService.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Accounts/BoostBundle/Services/BoostServiceInterface.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Accounts/BoostBundle/Views/BoostRenderer.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Accounts/PermissionsBundle/Controller/PermissionsController.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Accounts/PermissionsBundle/DependencyInjection/Configuration.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Accounts/PermissionsBundle/DependencyInjection/IliusAccountsPermissionsExtension.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Accounts/PermissionsBundle/Exceptions/InvalidParametersException.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Accounts/PermissionsBundle/IliusAccountsPermissionsBundle.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Accounts/PermissionsBundle/Services/PermissionsService.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Accounts/PermissionsBundle/Services/PermissionsServiceInterface.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Accounts/PermissionsBundle/Views/PermissionsRenderer.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/CustomCacheBundle/DependencyInjection/IliusCommonCustomCacheExtension.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/CustomCacheBundle/IliusCommonCustomCacheBundle.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/CustomCacheBundle/Services/CustomApcCache.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/CustomProfilerBundle/DependencyInjection/IliusCommonCustomProfilerExtension.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/CustomProfilerBundle/IliusCommonCustomProfilerBundle.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/CustomProfilerBundle/RequestMatcher/MtcDebugRequestMatcher.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/DBAccessBundle/DBAL/OTP/Connection.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/DBAccessBundle/DBAL/OTP/Driver.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/DBAccessBundle/DBAL/OTP/OTPWrapper.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/DBAccessBundle/DBAL/OTP/OraclePlatform.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/DBAccessBundle/DBAL/OTP/Statement.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/DBAccessBundle/DependencyInjection/Configuration.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/DBAccessBundle/DependencyInjection/IliusBundleCommonDBAccessExtension.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/DBAccessBundle/Exception/DBAccessException.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/DBAccessBundle/Exception/OTPException.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/DBAccessBundle/IliusBundleCommonDBAccessBundle.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/DBAccessBundle/Services/DBAccessFactory.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/DBAccessBundle/Services/DBAccessInterface.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/DBAccessBundle/Services/DBAccessService.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/EmailBundle/DependencyInjection/Configuration.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/EmailBundle/DependencyInjection/IliusCommonEmailExtension.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/EmailBundle/Entities/EmailQueueItem.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/EmailBundle/Exceptions/InvalidParametersException.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/EmailBundle/IliusCommonEmailBundle.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/EmailBundle/Services/EmailQueueDAO.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/EmailBundle/Services/EmailQueueService.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/EmailBundle/Services/EmailQueueServiceInterface.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/ErrorRendererBundle/DependencyInjection/IliusCommonErrorRendererExtension.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/ErrorRendererBundle/IliusCommonErrorRendererBundle.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/ErrorRendererBundle/Listener/ErrorExceptionListener.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/Controller/GeoController.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/DependencyInjection/IliusBundleCommonGeoExtension.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/Entities/City.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/Entities/Country.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/Entities/CountryInfo.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/Entities/Department.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/Entities/Region.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/Entities/Zipcode.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/Exceptions/GeoNotFoundException.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/Exceptions/InvalidGeoParametersException.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/Filters/AbstractSqlSerializable.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/Filters/CityFilter.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/Filters/CountryFilter.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/Filters/CountryInfoFilter.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/Filters/DepartmentFilter.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/Filters/RegionFilter.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/Filters/ZipcodeFilter.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/IliusBundleCommonGeoBundle.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/Services/GeoDAO.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/Services/GeoService.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/Services/GeoServiceInterface.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/Views/CityRenderer.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/Views/CountryInfoRenderer.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/Views/CountryRenderer.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/Views/DepartmentRenderer.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/Views/GeoRendererAbstract.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/Views/RegionRenderer.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoBundle/Views/ZipcodeRenderer.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoIpBundle/DependencyInjection/IliusCommonGeoIpExtension.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoIpBundle/Entities/Coordinate.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoIpBundle/Entities/GeoIp.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoIpBundle/Exceptions/GeoIpWebServiceErrorException.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoIpBundle/IliusCommonGeoIpBundle.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoIpBundle/Services/GeoIpDAO.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoIpBundle/Services/GeoIpInterface.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/GeoIpBundle/Services/GeoIpService.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/HttpClientBundle/DependencyInjection/Configuration.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/HttpClientBundle/DependencyInjection/IliusCommonHttpClientExtension.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/HttpClientBundle/IliusCommonHttpClientBundle.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/HttpClientBundle/Services/HttpClientService.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/RefListBundle/DependencyInjection/IliusBundleCommonRefListExtension.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/RefListBundle/Entities/RefList.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/RefListBundle/Exceptions/NotFoundException.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/RefListBundle/IliusBundleCommonRefListBundle.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/RefListBundle/Services/RefListDAO.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/RefListBundle/Services/RefListInterface.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/RefListBundle/Services/RefListService.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/RendererBundle/DependencyInjection/IliusBundleRendrerExtension.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/RendererBundle/Entities/RendererAbstract.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/RendererBundle/Entities/RendererInterface.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/RendererBundle/Exceptions/ExceptionRenderer.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/RendererBundle/Exceptions/ExceptionRendererInterface.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/RendererBundle/Exceptions/UnsupportedFormatException.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Common/RendererBundle/Exceptions/UnsupportedVersionException.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Happyends/HappyendsBundle/Controller/InterviewController.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Happyends/HappyendsBundle/Controller/TestimonyController.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Happyends/HappyendsBundle/Criterias/InterviewSearchCriteria.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Happyends/HappyendsBundle/Criterias/TestimonySearchCriteria.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Happyends/HappyendsBundle/DependencyInjection/IliusBundleHappyendsHappyendsExtension.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Happyends/HappyendsBundle/Entities/InterviewEntity.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Happyends/HappyendsBundle/Entities/IntervieweeEntity.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Happyends/HappyendsBundle/Entities/PhotoEntity.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Happyends/HappyendsBundle/Entities/QuestionEntity.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Happyends/HappyendsBundle/Entities/TestimonyCategoryEntity.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Happyends/HappyendsBundle/Entities/TestimonyEntity.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Happyends/HappyendsBundle/Entities/UserEntity.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Happyends/HappyendsBundle/Exceptions/InvalidParametersException.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Happyends/HappyendsBundle/IliusBundleHappyendsHappyendsBundle.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Happyends/HappyendsBundle/Services/InterviewDAO.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Happyends/HappyendsBundle/Services/InterviewService.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Happyends/HappyendsBundle/Services/InterviewServiceInterface.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Happyends/HappyendsBundle/Services/TestimonyDAO.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Happyends/HappyendsBundle/Services/TestimonyService.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Happyends/HappyendsBundle/Services/TestimonyServiceInterface.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Happyends/HappyendsBundle/Views/InterviewRenderer.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Happyends/HappyendsBundle/Views/TestimonyCategoryRenderer.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Happyends/HappyendsBundle/Views/TestimonyRenderer.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/MeeticEvents/ListsBundle/Controllers/WinkController.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/MeeticEvents/ListsBundle/DependencyInjection/Configuration.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/MeeticEvents/ListsBundle/DependencyInjection/IliusBundleMeeticEventsListsExtension.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/MeeticEvents/ListsBundle/Entities/Wink.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/MeeticEvents/ListsBundle/Exceptions/InvalidParametersException.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/MeeticEvents/ListsBundle/Exceptions/NoRightsAccessException.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/MeeticEvents/ListsBundle/Exceptions/NotFoundException.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/MeeticEvents/ListsBundle/IliusBundleMeeticEventsListsBundle.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/MeeticEvents/ListsBundle/Services/EventEntityInterface.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/MeeticEvents/ListsBundle/Services/EventTaskInterface.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/MeeticEvents/ListsBundle/Services/WinkDAO.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/MeeticEvents/ListsBundle/Services/WinkEntityService.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/MeeticEvents/ListsBundle/Services/WinkTaskInterface.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/MeeticEvents/ListsBundle/Services/WinkTaskService.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/MeeticEvents/ListsBundle/Views/WinkListRenderer.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Member/ExclusionListBundle/Controller/ExclusionListController.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Member/ExclusionListBundle/DependencyInjection/IliusBundleMemberExclusionListExtension.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Member/ExclusionListBundle/Entities/Exclusion.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Member/ExclusionListBundle/Event/ExclusionEvent.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Member/ExclusionListBundle/Exceptions/InvalidParameterException.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Member/ExclusionListBundle/IliusBundleMemberExclusionListBundle.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Member/ExclusionListBundle/Services/ExclusionListDAO.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Member/ExclusionListBundle/Services/ExclusionListEvents.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Member/ExclusionListBundle/Services/ExclusionListEventsInterface.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Member/ExclusionListBundle/Services/ExclusionListService.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Member/ExclusionListBundle/Services/ExclusionListServiceInterface.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Member/ExclusionListBundle/Views/ExclusionListRenderer.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Member/PaymentBundle/Controller/PaymentController.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Member/PaymentBundle/DependencyInjection/IliusBundleMemberPaymentExtension.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Member/PaymentBundle/IliusBundleMemberPaymentBundle.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Member/PaymentBundle/Services/PaymentService.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Member/PaymentBundle/Services/PaymentServiceInterface.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Member/PicturesBundle/Controller/BulkPictureController.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Member/PicturesBundle/Controller/PictureController.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Member/PicturesBundle/DependencyInjection/IliusMemberPicturesExtension.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Member/PicturesBundle/Entities/Picture.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Member/PicturesBundle/Entities/PictureLink.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Member/PicturesBundle/Entities/PictureSelector.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Member/PicturesBundle/Exceptions/InvalidParametersException.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Member/PicturesBundle/Exceptions/InvalidTemplateException.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Member/PicturesBundle/Exceptions/NotFoundException.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Member/PicturesBundle/Exceptions/StorageException.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Member/PicturesBundle/Helpers/Link.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Member/PicturesBundle/Helpers/Validators.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Member/PicturesBundle/IliusMemberPicturesBundle.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Member/PicturesBundle/Services/PictureService.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Member/PicturesBundle/Services/PictureServiceInterface.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Member/PicturesBundle/Services/PicturesDAO.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Member/PicturesBundle/Views/PictureLinksListRenderer.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Member/PicturesBundle/Views/PictureListRenderer.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Member/PicturesBundle/Views/PictureRenderer.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Member/ProfileBundle/Controller/ProfileController.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Member/ProfileBundle/DependencyInjection/IliusBundleMemberProfileExtension.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Member/ProfileBundle/Entities/ProfileLight.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Member/ProfileBundle/IliusBundleMemberProfileBundle.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Member/ProfileBundle/Services/ProfileDAO.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Member/ProfileBundle/Services/ProfileInterface.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Member/ProfileBundle/Services/ProfileService.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Member/ProfileBundle/Views/ProfileRenderer.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/AmoBundle.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Controller/ActionController.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Controller/RuleController.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Controller/StateController.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/DependencyInjection/AmoExtension.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Entities/Rule.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Entities/StatRobot.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Entities/UserAction.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Entities/UserState.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Exceptions/InvalidConfigurationException.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Exceptions/InvalidOperatorTypeException.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Exceptions/InvalidParametersException.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Exceptions/NotFoundException.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Exceptions/StorageException.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Helpers/Amo.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Helpers/Configuration.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Helpers/Validators.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Services/ActionDAO.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Services/ActionInterface.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Services/ActionService.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Services/LogDAO.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Services/LogInterface.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Services/LogService.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Services/OperatorAbstract.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Services/OperatorEquals.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Services/OperatorInterface.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Services/OperatorMatch.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Services/OperatorMath.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Services/RuleDAO.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Services/RuleInterface.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Services/RuleService.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Services/StateDAO.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Services/StateInterface.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Services/StateService.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Views/RuleListRenderer.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Views/RuleRenderer.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Views/StateListRenderer.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/Moderation/AmoBundle/Views/StateRenderer.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/SocialEvents/UgeBundle/Controller/UgeController.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/SocialEvents/UgeBundle/Criterias/UgeSearchCriteria.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/SocialEvents/UgeBundle/DependencyInjection/IliusBundleSocialEventsUgeExtension.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/SocialEvents/UgeBundle/Entities/Event.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/SocialEvents/UgeBundle/Entities/EventInstance.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/SocialEvents/UgeBundle/Entities/Participant.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/SocialEvents/UgeBundle/Entities/Place.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/SocialEvents/UgeBundle/Entities/Recurrence.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/SocialEvents/UgeBundle/EventListener/UgeListener.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/SocialEvents/UgeBundle/Exceptions/ConflictException.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/SocialEvents/UgeBundle/Exceptions/InvalidParametersException.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/SocialEvents/UgeBundle/IliusBundleSocialEventsUgeBundle.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/SocialEvents/UgeBundle/Services/UgeDAO.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/SocialEvents/UgeBundle/Services/UgeService.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/SocialEvents/UgeBundle/Services/UgeServiceInterface.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/SocialEvents/UgeBundle/Views/UgeRenderer.php' => true,
-  '/projects/api-services/src/Ilius/Bundle/SocialEvents/UgeBundle/Workflows/UgeWorkflow.php' => true,
-  '/projects/api-services/src/Ilius/Component/CoverageReportMerge/CoverageReportMerge.php' => true,
-  '/projects/api-services/src/Ilius/Component/CustomMemcache/Services/MemcachePatched.php' => true,
-  '/projects/api-services/src/Ilius/Component/RouterTest/RouterTest.php' => true,
-  '/projects/api-services/src/Ilius/Component/RouterTest/YamlFileLoader.php' => true,
+  '/filipJFry/Futurama/Bundle/Accounts/AccessRightsBundle/DependencyInjection/FuturamaBundleAccountsAccessRightsExtension.php' => true,
+  '/filipJFry/Futurama/Bundle/Accounts/AccessRightsBundle/FuturamaBundleAccountsAccessRightsBundle.php' => true,
+  '/filipJFry/Futurama/Bundle/Accounts/AccessRightsBundle/Services/AccessRightsDAO.php' => true,
+  '/filipJFry/Futurama/Bundle/Accounts/AccessRightsBundle/Services/AccessRightsInterface.php' => true,
+  '/filipJFry/Futurama/Bundle/Accounts/AccessRightsBundle/Services/AccessRightsService.php' => true,
+  '/filipJFry/Futurama/Bundle/Accounts/BoostBundle/Command/BoostPoolingCommand.php' => true,
+  '/filipJFry/Futurama/Bundle/Accounts/BoostBundle/Controller/BoostController.php' => true,
+  '/filipJFry/Futurama/Bundle/Accounts/BoostBundle/Criterias/Boost.php' => true,
+  '/filipJFry/Futurama/Bundle/Accounts/BoostBundle/DependencyInjection/Configuration.php' => true,
+  '/filipJFry/Futurama/Bundle/Accounts/BoostBundle/DependencyInjection/FuturamaBundleAccountsBoostExtension.php' => true,
+  '/filipJFry/Futurama/Bundle/Accounts/BoostBundle/Entities/Boost.php' => true,
+  '/filipJFry/Futurama/Bundle/Accounts/BoostBundle/Entities/BoostCounter.php' => true,
+  '/filipJFry/Futurama/Bundle/Accounts/BoostBundle/Exceptions/BoostException.php' => true,
+  '/filipJFry/Futurama/Bundle/Accounts/BoostBundle/Exceptions/InvalidParameterException.php' => true,
+  '/filipJFry/Futurama/Bundle/Accounts/BoostBundle/Exceptions/ResultNotFoundException.php' => true,
+  '/filipJFry/Futurama/Bundle/Accounts/BoostBundle/FuturamaBundleAccountsBoostBundle.php' => true,
+  '/filipJFry/Futurama/Bundle/Accounts/BoostBundle/Services/BoostDAO.php' => true,
+  '/filipJFry/Futurama/Bundle/Accounts/BoostBundle/Services/BoostService.php' => true,
+  '/filipJFry/Futurama/Bundle/Accounts/BoostBundle/Services/BoostServiceInterface.php' => true,
+  '/filipJFry/Futurama/Bundle/Accounts/BoostBundle/Views/BoostRenderer.php' => true,
+  '/filipJFry/Futurama/Bundle/Accounts/PermissionsBundle/Controller/PermissionsController.php' => true,
+  '/filipJFry/Futurama/Bundle/Accounts/PermissionsBundle/DependencyInjection/Configuration.php' => true,
+  '/filipJFry/Futurama/Bundle/Accounts/PermissionsBundle/DependencyInjection/FuturamaAccountsPermissionsExtension.php' => true,
+  '/filipJFry/Futurama/Bundle/Accounts/PermissionsBundle/Exceptions/InvalidParametersException.php' => true,
+  '/filipJFry/Futurama/Bundle/Accounts/PermissionsBundle/FuturamaAccountsPermissionsBundle.php' => true,
+  '/filipJFry/Futurama/Bundle/Accounts/PermissionsBundle/Services/PermissionsService.php' => true,
+  '/filipJFry/Futurama/Bundle/Accounts/PermissionsBundle/Services/PermissionsServiceInterface.php' => true,
+  '/filipJFry/Futurama/Bundle/Accounts/PermissionsBundle/Views/PermissionsRenderer.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/CustomCacheBundle/DependencyInjection/FuturamaCommonCustomCacheExtension.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/CustomCacheBundle/FuturamaCommonCustomCacheBundle.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/CustomCacheBundle/Services/CustomApcCache.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/CustomProfilerBundle/DependencyInjection/FuturamaCommonCustomProfilerExtension.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/CustomProfilerBundle/FuturamaCommonCustomProfilerBundle.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/CustomProfilerBundle/RequestMatcher/MtcDebugRequestMatcher.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/DBAccessBundle/DBAL/OTP/Connection.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/DBAccessBundle/DBAL/OTP/Driver.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/DBAccessBundle/DBAL/OTP/OTPWrapper.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/DBAccessBundle/DBAL/OTP/OraclePlatform.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/DBAccessBundle/DBAL/OTP/Statement.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/DBAccessBundle/DependencyInjection/Configuration.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/DBAccessBundle/DependencyInjection/FuturamaBundleCommonDBAccessExtension.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/DBAccessBundle/Exception/DBAccessException.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/DBAccessBundle/Exception/OTPException.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/DBAccessBundle/FuturamaBundleCommonDBAccessBundle.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/DBAccessBundle/Services/DBAccessFactory.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/DBAccessBundle/Services/DBAccessInterface.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/DBAccessBundle/Services/DBAccessService.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/EmailBundle/DependencyInjection/Configuration.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/EmailBundle/DependencyInjection/FuturamaCommonEmailExtension.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/EmailBundle/Entities/EmailQueueItem.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/EmailBundle/Exceptions/InvalidParametersException.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/EmailBundle/FuturamaCommonEmailBundle.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/EmailBundle/Services/EmailQueueDAO.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/EmailBundle/Services/EmailQueueService.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/EmailBundle/Services/EmailQueueServiceInterface.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/ErrorRendererBundle/DependencyInjection/FuturamaCommonErrorRendererExtension.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/ErrorRendererBundle/FuturamaCommonErrorRendererBundle.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/ErrorRendererBundle/Listener/ErrorExceptionListener.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/Controller/GeoController.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/DependencyInjection/FuturamaBundleCommonGeoExtension.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/Entities/City.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/Entities/Country.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/Entities/CountryInfo.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/Entities/Department.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/Entities/Region.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/Entities/Zipcode.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/Exceptions/GeoNotFoundException.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/Exceptions/InvalidGeoParametersException.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/Filters/AbstractSqlSerializable.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/Filters/CityFilter.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/Filters/CountryFilter.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/Filters/CountryInfoFilter.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/Filters/DepartmentFilter.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/Filters/RegionFilter.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/Filters/ZipcodeFilter.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/FuturamaBundleCommonGeoBundle.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/Services/GeoDAO.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/Services/GeoService.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/Services/GeoServiceInterface.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/Views/CityRenderer.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/Views/CountryInfoRenderer.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/Views/CountryRenderer.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/Views/DepartmentRenderer.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/Views/GeoRendererAbstract.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/Views/RegionRenderer.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/GeoBundle/Views/ZipcodeRenderer.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/GeoIpBundle/DependencyInjection/FuturamaCommonGeoIpExtension.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/GeoIpBundle/Entities/Coordinate.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/GeoIpBundle/Entities/GeoIp.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/GeoIpBundle/Exceptions/GeoIpWebServiceErrorException.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/GeoIpBundle/FuturamaCommonGeoIpBundle.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/GeoIpBundle/Services/GeoIpDAO.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/GeoIpBundle/Services/GeoIpInterface.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/GeoIpBundle/Services/GeoIpService.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/HttpClientBundle/DependencyInjection/Configuration.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/HttpClientBundle/DependencyInjection/FuturamaCommonHttpClientExtension.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/HttpClientBundle/FuturamaCommonHttpClientBundle.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/HttpClientBundle/Services/HttpClientService.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/RefListBundle/DependencyInjection/FuturamaBundleCommonRefListExtension.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/RefListBundle/Entities/RefList.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/RefListBundle/Exceptions/NotFoundException.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/RefListBundle/FuturamaBundleCommonRefListBundle.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/RefListBundle/Services/RefListDAO.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/RefListBundle/Services/RefListInterface.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/RefListBundle/Services/RefListService.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/RendererBundle/DependencyInjection/FuturamaBundleRendrerExtension.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/RendererBundle/Entities/RendererAbstract.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/RendererBundle/Entities/RendererInterface.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/RendererBundle/Exceptions/ExceptionRenderer.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/RendererBundle/Exceptions/ExceptionRendererInterface.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/RendererBundle/Exceptions/UnsupportedFormatException.php' => true,
+  '/filipJFry/Futurama/Bundle/Common/RendererBundle/Exceptions/UnsupportedVersionException.php' => true,
+  '/filipJFry/Futurama/Bundle/Happyends/HappyendsBundle/Controller/InterviewController.php' => true,
+  '/filipJFry/Futurama/Bundle/Happyends/HappyendsBundle/Controller/TestimonyController.php' => true,
+  '/filipJFry/Futurama/Bundle/Happyends/HappyendsBundle/Criterias/InterviewSearchCriteria.php' => true,
+  '/filipJFry/Futurama/Bundle/Happyends/HappyendsBundle/Criterias/TestimonySearchCriteria.php' => true,
+  '/filipJFry/Futurama/Bundle/Happyends/HappyendsBundle/DependencyInjection/FuturamaBundleHappyendsHappyendsExtension.php' => true,
+  '/filipJFry/Futurama/Bundle/Happyends/HappyendsBundle/Entities/InterviewEntity.php' => true,
+  '/filipJFry/Futurama/Bundle/Happyends/HappyendsBundle/Entities/IntervieweeEntity.php' => true,
+  '/filipJFry/Futurama/Bundle/Happyends/HappyendsBundle/Entities/PhotoEntity.php' => true,
+  '/filipJFry/Futurama/Bundle/Happyends/HappyendsBundle/Entities/QuestionEntity.php' => true,
+  '/filipJFry/Futurama/Bundle/Happyends/HappyendsBundle/Entities/TestimonyCategoryEntity.php' => true,
+  '/filipJFry/Futurama/Bundle/Happyends/HappyendsBundle/Entities/TestimonyEntity.php' => true,
+  '/filipJFry/Futurama/Bundle/Happyends/HappyendsBundle/Entities/UserEntity.php' => true,
+  '/filipJFry/Futurama/Bundle/Happyends/HappyendsBundle/Exceptions/InvalidParametersException.php' => true,
+  '/filipJFry/Futurama/Bundle/Happyends/HappyendsBundle/FuturamaBundleHappyendsHappyendsBundle.php' => true,
+  '/filipJFry/Futurama/Bundle/Happyends/HappyendsBundle/Services/InterviewDAO.php' => true,
+  '/filipJFry/Futurama/Bundle/Happyends/HappyendsBundle/Services/InterviewService.php' => true,
+  '/filipJFry/Futurama/Bundle/Happyends/HappyendsBundle/Services/InterviewServiceInterface.php' => true,
+  '/filipJFry/Futurama/Bundle/Happyends/HappyendsBundle/Services/TestimonyDAO.php' => true,
+  '/filipJFry/Futurama/Bundle/Happyends/HappyendsBundle/Services/TestimonyService.php' => true,
+  '/filipJFry/Futurama/Bundle/Happyends/HappyendsBundle/Services/TestimonyServiceInterface.php' => true,
+  '/filipJFry/Futurama/Bundle/Happyends/HappyendsBundle/Views/InterviewRenderer.php' => true,
+  '/filipJFry/Futurama/Bundle/Happyends/HappyendsBundle/Views/TestimonyCategoryRenderer.php' => true,
+  '/filipJFry/Futurama/Bundle/Happyends/HappyendsBundle/Views/TestimonyRenderer.php' => true,
+  '/filipJFry/Futurama/Bundle/MeeticEvents/ListsBundle/Controllers/WinkController.php' => true,
+  '/filipJFry/Futurama/Bundle/MeeticEvents/ListsBundle/DependencyInjection/Configuration.php' => true,
+  '/filipJFry/Futurama/Bundle/MeeticEvents/ListsBundle/DependencyInjection/FuturamaBundleMeeticEventsListsExtension.php' => true,
+  '/filipJFry/Futurama/Bundle/MeeticEvents/ListsBundle/Entities/Wink.php' => true,
+  '/filipJFry/Futurama/Bundle/MeeticEvents/ListsBundle/Exceptions/InvalidParametersException.php' => true,
+  '/filipJFry/Futurama/Bundle/MeeticEvents/ListsBundle/Exceptions/NoRightsAccessException.php' => true,
+  '/filipJFry/Futurama/Bundle/MeeticEvents/ListsBundle/Exceptions/NotFoundException.php' => true,
+  '/filipJFry/Futurama/Bundle/MeeticEvents/ListsBundle/FuturamaBundleMeeticEventsListsBundle.php' => true,
+  '/filipJFry/Futurama/Bundle/MeeticEvents/ListsBundle/Services/EventEntityInterface.php' => true,
+  '/filipJFry/Futurama/Bundle/MeeticEvents/ListsBundle/Services/EventTaskInterface.php' => true,
+  '/filipJFry/Futurama/Bundle/MeeticEvents/ListsBundle/Services/WinkDAO.php' => true,
+  '/filipJFry/Futurama/Bundle/MeeticEvents/ListsBundle/Services/WinkEntityService.php' => true,
+  '/filipJFry/Futurama/Bundle/MeeticEvents/ListsBundle/Services/WinkTaskInterface.php' => true,
+  '/filipJFry/Futurama/Bundle/MeeticEvents/ListsBundle/Services/WinkTaskService.php' => true,
+  '/filipJFry/Futurama/Bundle/MeeticEvents/ListsBundle/Views/WinkListRenderer.php' => true,
+  '/filipJFry/Futurama/Bundle/Member/ExclusionListBundle/Controller/ExclusionListController.php' => true,
+  '/filipJFry/Futurama/Bundle/Member/ExclusionListBundle/DependencyInjection/FuturamaBundleMemberExclusionListExtension.php' => true,
+  '/filipJFry/Futurama/Bundle/Member/ExclusionListBundle/Entities/Exclusion.php' => true,
+  '/filipJFry/Futurama/Bundle/Member/ExclusionListBundle/Event/ExclusionEvent.php' => true,
+  '/filipJFry/Futurama/Bundle/Member/ExclusionListBundle/Exceptions/InvalidParameterException.php' => true,
+  '/filipJFry/Futurama/Bundle/Member/ExclusionListBundle/FuturamaBundleMemberExclusionListBundle.php' => true,
+  '/filipJFry/Futurama/Bundle/Member/ExclusionListBundle/Services/ExclusionListDAO.php' => true,
+  '/filipJFry/Futurama/Bundle/Member/ExclusionListBundle/Services/ExclusionListEvents.php' => true,
+  '/filipJFry/Futurama/Bundle/Member/ExclusionListBundle/Services/ExclusionListEventsInterface.php' => true,
+  '/filipJFry/Futurama/Bundle/Member/ExclusionListBundle/Services/ExclusionListService.php' => true,
+  '/filipJFry/Futurama/Bundle/Member/ExclusionListBundle/Services/ExclusionListServiceInterface.php' => true,
+  '/filipJFry/Futurama/Bundle/Member/ExclusionListBundle/Views/ExclusionListRenderer.php' => true,
+  '/filipJFry/Futurama/Bundle/Member/PaymentBundle/Controller/PaymentController.php' => true,
+  '/filipJFry/Futurama/Bundle/Member/PaymentBundle/DependencyInjection/FuturamaBundleMemberPaymentExtension.php' => true,
+  '/filipJFry/Futurama/Bundle/Member/PaymentBundle/FuturamaBundleMemberPaymentBundle.php' => true,
+  '/filipJFry/Futurama/Bundle/Member/PaymentBundle/Services/PaymentService.php' => true,
+  '/filipJFry/Futurama/Bundle/Member/PaymentBundle/Services/PaymentServiceInterface.php' => true,
+  '/filipJFry/Futurama/Bundle/Member/PicturesBundle/Controller/BulkPictureController.php' => true,
+  '/filipJFry/Futurama/Bundle/Member/PicturesBundle/Controller/PictureController.php' => true,
+  '/filipJFry/Futurama/Bundle/Member/PicturesBundle/DependencyInjection/FuturamaMemberPicturesExtension.php' => true,
+  '/filipJFry/Futurama/Bundle/Member/PicturesBundle/Entities/Picture.php' => true,
+  '/filipJFry/Futurama/Bundle/Member/PicturesBundle/Entities/PictureLink.php' => true,
+  '/filipJFry/Futurama/Bundle/Member/PicturesBundle/Entities/PictureSelector.php' => true,
+  '/filipJFry/Futurama/Bundle/Member/PicturesBundle/Exceptions/InvalidParametersException.php' => true,
+  '/filipJFry/Futurama/Bundle/Member/PicturesBundle/Exceptions/InvalidTemplateException.php' => true,
+  '/filipJFry/Futurama/Bundle/Member/PicturesBundle/Exceptions/NotFoundException.php' => true,
+  '/filipJFry/Futurama/Bundle/Member/PicturesBundle/Exceptions/StorageException.php' => true,
+  '/filipJFry/Futurama/Bundle/Member/PicturesBundle/Helpers/Link.php' => true,
+  '/filipJFry/Futurama/Bundle/Member/PicturesBundle/Helpers/Validators.php' => true,
+  '/filipJFry/Futurama/Bundle/Member/PicturesBundle/FuturamaMemberPicturesBundle.php' => true,
+  '/filipJFry/Futurama/Bundle/Member/PicturesBundle/Services/PictureService.php' => true,
+  '/filipJFry/Futurama/Bundle/Member/PicturesBundle/Services/PictureServiceInterface.php' => true,
+  '/filipJFry/Futurama/Bundle/Member/PicturesBundle/Services/PicturesDAO.php' => true,
+  '/filipJFry/Futurama/Bundle/Member/PicturesBundle/Views/PictureLinksListRenderer.php' => true,
+  '/filipJFry/Futurama/Bundle/Member/PicturesBundle/Views/PictureListRenderer.php' => true,
+  '/filipJFry/Futurama/Bundle/Member/PicturesBundle/Views/PictureRenderer.php' => true,
+  '/filipJFry/Futurama/Bundle/Member/ProfileBundle/Controller/ProfileController.php' => true,
+  '/filipJFry/Futurama/Bundle/Member/ProfileBundle/DependencyInjection/FuturamaBundleMemberProfileExtension.php' => true,
+  '/filipJFry/Futurama/Bundle/Member/ProfileBundle/Entities/ProfileLight.php' => true,
+  '/filipJFry/Futurama/Bundle/Member/ProfileBundle/FuturamaBundleMemberProfileBundle.php' => true,
+  '/filipJFry/Futurama/Bundle/Member/ProfileBundle/Services/ProfileDAO.php' => true,
+  '/filipJFry/Futurama/Bundle/Member/ProfileBundle/Services/ProfileInterface.php' => true,
+  '/filipJFry/Futurama/Bundle/Member/ProfileBundle/Services/ProfileService.php' => true,
+  '/filipJFry/Futurama/Bundle/Member/ProfileBundle/Views/ProfileRenderer.php' => true,
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/AmoBundle.php' => true,
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Controller/ActionController.php' => true,
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Controller/RuleController.php' => true,
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Controller/StateController.php' => true,
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/DependencyInjection/AmoExtension.php' => true,
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Entities/Rule.php' => true,
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Entities/StatRobot.php' => true,
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Entities/UserAction.php' => true,
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Entities/UserState.php' => true,
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Exceptions/InvalidConfigurationException.php' => true,
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Exceptions/InvalidOperatorTypeException.php' => true,
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Exceptions/InvalidParametersException.php' => true,
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Exceptions/NotFoundException.php' => true,
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Exceptions/StorageException.php' => true,
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Helpers/Amo.php' => true,
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Helpers/Configuration.php' => true,
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Helpers/Validators.php' => true,
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Services/ActionDAO.php' => true,
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Services/ActionInterface.php' => true,
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Services/ActionService.php' => true,
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Services/LogDAO.php' => true,
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Services/LogInterface.php' => true,
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Services/LogService.php' => true,
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Services/OperatorAbstract.php' => true,
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Services/OperatorEquals.php' => true,
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Services/OperatorInterface.php' => true,
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Services/OperatorMatch.php' => true,
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Services/OperatorMath.php' => true,
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Services/RuleDAO.php' => true,
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Services/RuleInterface.php' => true,
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Services/RuleService.php' => true,
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Services/StateDAO.php' => true,
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Services/StateInterface.php' => true,
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Services/StateService.php' => true,
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Views/RuleListRenderer.php' => true,
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Views/RuleRenderer.php' => true,
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Views/StateListRenderer.php' => true,
+  '/filipJFry/Futurama/Bundle/Moderation/AmoBundle/Views/StateRenderer.php' => true,
+  '/filipJFry/Futurama/Bundle/SocialEvents/UgeBundle/Controller/UgeController.php' => true,
+  '/filipJFry/Futurama/Bundle/SocialEvents/UgeBundle/Criterias/UgeSearchCriteria.php' => true,
+  '/filipJFry/Futurama/Bundle/SocialEvents/UgeBundle/DependencyInjection/FuturamaBundleSocialEventsUgeExtension.php' => true,
+  '/filipJFry/Futurama/Bundle/SocialEvents/UgeBundle/Entities/Event.php' => true,
+  '/filipJFry/Futurama/Bundle/SocialEvents/UgeBundle/Entities/EventInstance.php' => true,
+  '/filipJFry/Futurama/Bundle/SocialEvents/UgeBundle/Entities/Participant.php' => true,
+  '/filipJFry/Futurama/Bundle/SocialEvents/UgeBundle/Entities/Place.php' => true,
+  '/filipJFry/Futurama/Bundle/SocialEvents/UgeBundle/Entities/Recurrence.php' => true,
+  '/filipJFry/Futurama/Bundle/SocialEvents/UgeBundle/EventListener/UgeListener.php' => true,
+  '/filipJFry/Futurama/Bundle/SocialEvents/UgeBundle/Exceptions/ConflictException.php' => true,
+  '/filipJFry/Futurama/Bundle/SocialEvents/UgeBundle/Exceptions/InvalidParametersException.php' => true,
+  '/filipJFry/Futurama/Bundle/SocialEvents/UgeBundle/FuturamaBundleSocialEventsUgeBundle.php' => true,
+  '/filipJFry/Futurama/Bundle/SocialEvents/UgeBundle/Services/UgeDAO.php' => true,
+  '/filipJFry/Futurama/Bundle/SocialEvents/UgeBundle/Services/UgeService.php' => true,
+  '/filipJFry/Futurama/Bundle/SocialEvents/UgeBundle/Services/UgeServiceInterface.php' => true,
+  '/filipJFry/Futurama/Bundle/SocialEvents/UgeBundle/Views/UgeRenderer.php' => true,
+  '/filipJFry/Futurama/Bundle/SocialEvents/UgeBundle/Workflows/UgeWorkflow.php' => true,
+  '/filipJFry/Futurama/Component/CoverageReportMerge/CoverageReportMerge.php' => true,
+  '/filipJFry/Futurama/Component/CustomMemcache/Services/MemcachePatched.php' => true,
+  '/filipJFry/Futurama/Component/RouterTest/RouterTest.php' => true,
+  '/filipJFry/Futurama/Component/RouterTest/YamlFileLoader.php' => true,
 ));
 
 return $coverage;
