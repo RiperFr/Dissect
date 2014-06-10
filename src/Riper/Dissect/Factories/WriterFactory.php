@@ -17,4 +17,11 @@ class WriterFactory
     {
         return new \PHP_CodeCoverage_Report_HTML($lowUpperBound, $highLowerBound, $generator);
     }
+
+    /**
+     * @return \PHP_CodeCoverage_Report_XML
+     */
+    public function getXMLWriter(){
+        return new \PHP_CodeCoverage_Report_XML();
+    }
 }

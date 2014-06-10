@@ -19,6 +19,8 @@ class CoverageMergeService
      */
     protected $outputHTMLReportFolder = null;
 
+    protected $outputXMLReportFile = 'coverage.xml';
+
     /**
      *
      * @var WriterFactory
@@ -51,6 +53,10 @@ class CoverageMergeService
     public function setOutputHTMLReportFolder($directory)
     {
         $this->outputHTMLReportFolder = realpath($directory);
+    }
+
+    public function setOutputXMLReportFile($file){
+        $this->outputXMLReportFile = $file ;
     }
 
     /**
@@ -122,7 +128,10 @@ class CoverageMergeService
     public function generate()
     {
         $coverage = $this->mergeReports();
-        $writer   = $this->writerFactory->getHTMLWriter($this->lowUpperBound, $this->highLowerBound, $this->generator);
-        $writer->process($coverage, $this->outputHTMLReportFolder);
+        $htmlWriter   = $this->writerFactory->getHTMLWriter($this->lowUpperBound, $this->highLowerBound, $this->generator);
+        $XMLWriter = $this->writerFactory->getXMLWriter();
+        $htmlWriter->process($coverage, $this->outputHTMLReportFolder);
+        $XMLWriter->process($coverage,$this->outputHTMLReportFolder);
+        copy($this->outputHTMLReportFolder.'/'.'index.xml',$this->outputXMLReportFile);
     }
 }
