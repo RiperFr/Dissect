@@ -98,7 +98,7 @@ class CoverageMergeCommand extends Command
             $CoverageReportMerge->setGeneratorName('CoverageReportMerge with unknown version of PHPUnit');
         }
 
-        $output->write('Begening merge & generation');
+        $output->write('Beginning merge & generation : ');
         $CoverageReportMerge->generate();
         $output->writeln('... done');
     }
