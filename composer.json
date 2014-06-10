@@ -14,7 +14,7 @@
         "phpunit/php-code-coverage": "~2.0",
         "phpunit/phpcov": "2.*",
         "symfony/console": "~2.2",
-        "symfony/finder": ">=2.2.0"
+        "symfony/finder": "2.2.*"
 
     },
     "require-dev" :{
