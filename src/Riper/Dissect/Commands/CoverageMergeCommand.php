@@ -39,6 +39,11 @@ class CoverageMergeCommand extends Command
                 'i',
                 InputOption::VALUE_REQUIRED,
                 'Level of coverage to consider code well covered (green)'
+            )->addOption(
+                'xmlFileOutput',
+                'x',
+                InputOption::VALUE_REQUIRED,
+                'The path to the xml file to generate (default: coverage.xml)'
             )
             ->addOption(
                 'files',
@@ -78,6 +83,11 @@ class CoverageMergeCommand extends Command
 
         $low  = $input->getOption('lowUpperBound');
         $high = $input->getOption('highLowerBound');
+        $coverageXML = $input->getOption('xmlFileOutput');
+
+        if($coverageXML !== null){
+            $CoverageReportMerge->setOutputXMLReportFile($input->getOption('xmlFileOutput'));
+        }
 
         if ($low !== null) {
             $CoverageReportMerge->setLowUpperBound($low);
