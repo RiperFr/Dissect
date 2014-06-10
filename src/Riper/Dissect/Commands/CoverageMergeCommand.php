@@ -67,7 +67,7 @@ class CoverageMergeCommand extends Command
             $CoverageReportMerge->findCoverageReport($input->getOption('coverageDirectory'));
         } else {
             if ($input->getOption('files')) {
-                $reports = explode(',', $input->getOption('coverageDirectory'));
+                $reports = explode(',', $input->getOption('files'));
                 foreach ($reports as $report) {
                     $CoverageReportMerge->addCoverageReport($report);
                 }
