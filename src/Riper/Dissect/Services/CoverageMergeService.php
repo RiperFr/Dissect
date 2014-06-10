@@ -104,6 +104,8 @@ class CoverageMergeService
     protected function mergeReports()
     {
         $mergedCoverage = $this->codeCoverageFactory->getCodeCoverage();
+        $mergedCoverage->setProcessUncoveredFilesFromWhitelist(true);
+
         foreach ($this->coverageReports as $coverageReportFile) {
             $_coverage = include($coverageReportFile);
             //Be careful, the $coverage variable is override in the included file !
