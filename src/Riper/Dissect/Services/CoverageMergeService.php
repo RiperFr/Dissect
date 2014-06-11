@@ -129,9 +129,8 @@ class CoverageMergeService
     {
         $coverage = $this->mergeReports();
         $htmlWriter   = $this->writerFactory->getHTMLWriter($this->lowUpperBound, $this->highLowerBound, $this->generator);
-        $XMLWriter = $this->writerFactory->getXMLWriter();
+        $XMLWriter = $this->writerFactory->getCloverXMLWriter();
         $htmlWriter->process($coverage, $this->outputHTMLReportFolder);
-        $XMLWriter->process($coverage,$this->outputHTMLReportFolder);
-        copy($this->outputHTMLReportFolder.'/'.'index.xml',$this->outputXMLReportFile);
+        $XMLWriter->process($coverage,$this->outputXMLReportFile,'yellowSubMarine');
     }
 }

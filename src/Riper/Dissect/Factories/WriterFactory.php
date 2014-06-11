@@ -24,4 +24,11 @@ class WriterFactory
     public function getXMLWriter(){
         return new \PHP_CodeCoverage_Report_XML();
     }
+
+    /**
+     * @return \PHP_CodeCoverage_Report_Clover
+     */
+    public function getCloverXMLWriter(){
+        return new \PHP_CodeCoverage_Report_Clover();
+    }
 }
