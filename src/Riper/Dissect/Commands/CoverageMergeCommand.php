@@ -44,6 +44,11 @@ class CoverageMergeCommand extends Command
                 'x',
                 InputOption::VALUE_REQUIRED,
                 'The path to the xml file to generate (default: coverage.xml)'
+            )->addOption(
+                'phpUnitCoverageDirectoryOutput',
+                'p',
+                InputOption::VALUE_REQUIRED,
+                'The path to the xml file to generate'
             )
             ->addOption(
                 'files',
@@ -84,9 +89,14 @@ class CoverageMergeCommand extends Command
         $low  = $input->getOption('lowUpperBound');
         $high = $input->getOption('highLowerBound');
         $coverageXML = $input->getOption('xmlFileOutput');
+        $phpunitCoverageXMLFolder = $input->getOption('phpUnitCoverageDirectoryOutput');
 
         if($coverageXML !== null){
             $CoverageReportMerge->setOutputXMLReportFile($input->getOption('xmlFileOutput'));
+        }
+
+        if($phpunitCoverageXMLFolder !== null){
+            $CoverageReportMerge->setOutputPhpUnitCoverageXmlDirectory($input->getOption('phpUnitCoverageDirectoryOutput'));
         }
 
         if ($low !== null) {
