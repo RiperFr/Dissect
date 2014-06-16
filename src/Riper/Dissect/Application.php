@@ -2,8 +2,8 @@
 namespace Riper\Dissect;
 
 
-
 use Riper\Dissect\Commands\CoverageMergeCommand;
+use Riper\Dissect\Commands\DissectCollectCommand;
 use Symfony\Component\Console\Application as AbstractApplication;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\ArgvInput;
@@ -23,14 +23,15 @@ class Application extends AbstractApplication
 {
     public function __construct()
     {
-        parent::__construct('Dissect','dev');
+        parent::__construct('Dissect', 'dev');
         $this->add(new CoverageMergeCommand());
+        $this->add(new DissectCollectCommand());
     }
 
     /**
      * Runs the current application.
      *
-     * @param InputInterface  $input  An Input instance
+     * @param InputInterface $input An Input instance
      * @param OutputInterface $output An Output instance
      *
      * @return integer 0 if everything went fine, or an error code
@@ -47,7 +48,8 @@ class Application extends AbstractApplication
         }
 
         if ($input->hasParameterOption('--version') ||
-            $input->hasParameterOption('-V')) {
+            $input->hasParameterOption('-V')
+        ) {
             exit;
         }
 

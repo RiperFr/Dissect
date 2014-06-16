@@ -7,8 +7,9 @@ class WriterFactory
 
     /**
      * Return a PhpUnitReportWriter that generate HTML
-     * @param int    $lowUpperBound
-     * @param int    $highLowerBound
+     *
+     * @param int $lowUpperBound
+     * @param int $highLowerBound
      * @param string $generator
      *
      * @return \PHP_CodeCoverage_Report_HTML
@@ -21,14 +22,21 @@ class WriterFactory
     /**
      * @return \PHP_CodeCoverage_Report_XML
      */
-    public function getXMLWriter(){
+    public function getXMLWriter()
+    {
         return new \PHP_CodeCoverage_Report_XML();
     }
 
     /**
      * @return \PHP_CodeCoverage_Report_Clover
      */
-    public function getCloverXMLWriter(){
+    public function getCloverXMLWriter()
+    {
         return new \PHP_CodeCoverage_Report_Clover();
+    }
+
+    public function getPhpWriter()
+    {
+        return new \PHP_CodeCoverage_Report_PHP();
     }
 }

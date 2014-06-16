@@ -21,7 +21,9 @@ class CoverageMergeService
 
     protected $outputXMLReportFile = 'coverage.xml';
 
-    protected $OutputPhpUnitCoverageXmlDirectory = null ;
+    protected $OutputPhpUnitCoverageXmlDirectory = null;
+
+    protected $outputPHPReportFile = null;
 
     /**
      *
@@ -44,7 +46,7 @@ class CoverageMergeService
 
     public function __construct(WriterFactory $writerFactory, CodeCoverageFactory $CodeCoverageFactory)
     {
-        $this->writerFactory       = $writerFactory;
+        $this->writerFactory = $writerFactory;
         $this->codeCoverageFactory = $CodeCoverageFactory;
     }
 
@@ -57,12 +59,19 @@ class CoverageMergeService
         $this->outputHTMLReportFolder = realpath($directory);
     }
 
-    public function setOutputXMLReportFile($file){
-        $this->outputXMLReportFile = $file ;
+    public function setOutputXMLReportFile($file)
+    {
+        $this->outputXMLReportFile = $file;
     }
 
-    public function setOutputPhpUnitCoverageXmlDirectory($dir){
-        $this->OutputPhpUnitCoverageXmlDirectory = $dir ;
+    public function setOutputPhpUnitCoverageXmlDirectory($dir)
+    {
+        $this->OutputPhpUnitCoverageXmlDirectory = $dir;
+    }
+
+    public function setOutputPHPReportFile($file)
+    {
+        $this->outputPHPReportFile = $file;
     }
 
     /**
@@ -124,6 +133,7 @@ class CoverageMergeService
             $mergedCoverage->merge($_coverage);
             unset($_coverage);
         }
+
         return $mergedCoverage;
 
     }
@@ -134,14 +144,23 @@ class CoverageMergeService
     public function generate()
     {
         $coverage = $this->mergeReports();
-        $htmlWriter   = $this->writerFactory->getHTMLWriter($this->lowUpperBound, $this->highLowerBound, $this->generator);
+        $htmlWriter = $this->writerFactory->getHTMLWriter(
+            $this->lowUpperBound,
+            $this->highLowerBound,
+            $this->generator
+        );
         $XMLWriter = $this->writerFactory->getCloverXMLWriter();
         $htmlWriter->process($coverage, $this->outputHTMLReportFolder);
-        $XMLWriter->process($coverage,$this->outputXMLReportFile,'yellowSubMarine');
+        $XMLWriter->process($coverage, $this->outputXMLReportFile, 'yellowSubMarine');
 
-        if($this->OutputPhpUnitCoverageXmlDirectory){
+        if ($this->OutputPhpUnitCoverageXmlDirectory) {
             $phpUnitCoverageWriter = $this->writerFactory->getXMLWriter();
-            $phpUnitCoverageWriter->process($coverage,$this->OutputPhpUnitCoverageXmlDirectory);
+            $phpUnitCoverageWriter->process($coverage, $this->OutputPhpUnitCoverageXmlDirectory);
+        }
+
+        if ($this->outputPHPReportFile) {
+            $phpUnitCoverageWriter = $this->writerFactory->getPhpWriter();
+            $phpUnitCoverageWriter->process($coverage, $this->outputPHPReportFile);
         }
     }
 }
