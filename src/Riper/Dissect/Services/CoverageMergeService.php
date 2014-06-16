@@ -21,7 +21,9 @@ class CoverageMergeService
 
     protected $outputXMLReportFile = 'coverage.xml';
 
-    protected $OutputPhpUnitCoverageXmlDirectory = null ;
+    protected $OutputPhpUnitCoverageXmlDirectory = null;
+
+    protected $outputPHPReportFile = null;
 
     /**
      *
@@ -61,8 +63,14 @@ class CoverageMergeService
         $this->outputXMLReportFile = $file ;
     }
 
-    public function setOutputPhpUnitCoverageXmlDirectory($dir){
-        $this->OutputPhpUnitCoverageXmlDirectory = $dir ;
+    public function setOutputPhpUnitCoverageXmlDirectory($dir)
+    {
+        $this->OutputPhpUnitCoverageXmlDirectory = $dir;
+    }
+
+    public function setOutputPHPReportFile($file)
+    {
+        $this->outputPHPReportFile = $file;
     }
 
     /**
@@ -139,9 +147,14 @@ class CoverageMergeService
         $htmlWriter->process($coverage, $this->outputHTMLReportFolder);
         $XMLWriter->process($coverage,$this->outputXMLReportFile,'yellowSubMarine');
 
-        if($this->OutputPhpUnitCoverageXmlDirectory){
+        if ($this->OutputPhpUnitCoverageXmlDirectory) {
             $phpUnitCoverageWriter = $this->writerFactory->getXMLWriter();
-            $phpUnitCoverageWriter->process($coverage,$this->OutputPhpUnitCoverageXmlDirectory);
+            $phpUnitCoverageWriter->process($coverage, $this->OutputPhpUnitCoverageXmlDirectory);
+        }
+
+        if ($this->outputPHPReportFile) {
+            $phpUnitCoverageWriter = $this->writerFactory->getPhpWriter();
+            $phpUnitCoverageWriter->process($coverage, $this->outputPHPReportFile);
         }
     }
 }
