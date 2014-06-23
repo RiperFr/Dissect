@@ -91,21 +91,23 @@ class CoverageMergeCommand extends Command
 
         $CoverageReportMerge->setOutputHTMLReportFolder($input->getArgument('directory'));
 
-        $low  = $input->getOption('lowUpperBound');
-        $high = $input->getOption('highLowerBound');
-        $coverageXML = $input->getOption('xmlFileOutput');
-        $coveragePHP = $input->getOption('phpFileOutput');
+        $low                      = $input->getOption('lowUpperBound');
+        $high                     = $input->getOption('highLowerBound');
+        $coverageXML              = $input->getOption('xmlFileOutput');
+        $coveragePHP              = $input->getOption('phpFileOutput');
         $phpunitCoverageXMLFolder = $input->getOption('phpUnitCoverageDirectoryOutput');
 
-        if($coverageXML !== null){
+        if ($coverageXML !== null) {
             $CoverageReportMerge->setOutputXMLReportFile($input->getOption('xmlFileOutput'));
         }
-        if($coveragePHP !== null){
+        if ($coveragePHP !== null) {
             $CoverageReportMerge->setOutputPHPReportFile($input->getOption('phpFileOutput'));
         }
 
-        if($phpunitCoverageXMLFolder !== null){
-            $CoverageReportMerge->setOutputPhpUnitCoverageXmlDirectory($input->getOption('phpUnitCoverageDirectoryOutput'));
+        if ($phpunitCoverageXMLFolder !== null) {
+            $CoverageReportMerge->setOutputPhpUnitCoverageXmlDirectory(
+                $input->getOption('phpUnitCoverageDirectoryOutput')
+            );
         }
 
         if ($low !== null) {

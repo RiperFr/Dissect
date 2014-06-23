@@ -4,6 +4,7 @@ namespace Riper\Dissect;
 
 
 use Riper\Dissect\Commands\CoverageMergeCommand;
+use Riper\Dissect\Commands\CoverageStatsCommand;
 use Symfony\Component\Console\Application as AbstractApplication;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\ArgvInput;
@@ -25,6 +26,7 @@ class Application extends AbstractApplication
     {
         parent::__construct('Dissect','dev');
         $this->add(new CoverageMergeCommand());
+        $this->add(new CoverageStatsCommand());
     }
 
     /**
