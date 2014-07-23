@@ -2,8 +2,8 @@
 namespace Riper\Dissect;
 
 
-
 use Riper\Dissect\Commands\CoverageMergeCommand;
+use Riper\Dissect\Commands\ComposerSourceListCommand;
 use Riper\Dissect\Commands\CoverageStatsCommand;
 use Symfony\Component\Console\Application as AbstractApplication;
 use Symfony\Component\Console\Input\InputInterface;
@@ -24,9 +24,10 @@ class Application extends AbstractApplication
 {
     public function __construct()
     {
-        parent::__construct('Dissect','dev');
+        parent::__construct('Dissect', 'dev');
         $this->add(new CoverageMergeCommand());
         $this->add(new CoverageStatsCommand());
+        $this->add(new ComposerSourceListCommand());
     }
 
     /**
@@ -48,8 +49,9 @@ class Application extends AbstractApplication
             );
         }
 
-        if ($input->hasParameterOption('--version') ||
-            $input->hasParameterOption('-V')) {
+        if ($input->hasParameterOption('--version')
+            || $input->hasParameterOption('-V')
+        ) {
             exit;
         }
 
