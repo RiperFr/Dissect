@@ -6,7 +6,7 @@ if (!file_exists('vendor/autoload.php')) {
     exit(1);
 }
 
-$filename = 'differ.phar';
+$filename = 'dissect.phar';
 if (file_exists($filename)) {
     unlink($filename);
 }
