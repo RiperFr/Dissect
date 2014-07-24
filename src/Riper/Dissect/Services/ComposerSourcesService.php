@@ -46,17 +46,26 @@ class ComposerSourcesService
         return $this->composerLockData;
     }
 
-    public function getSources($includeDev = false, $type = null)
+    public function getSources($type = null)
     {
         $composerLockData = $this->getComposerLockData();
         $sources          = array();
-        if ($includeDev) {
-            $composerLockData['packages'] = array_merge(
-                $composerLockData['packages'],
-                $composerLockData['packages-dev']
-            );
-        }
         foreach ($composerLockData['packages'] as $package) {
+            if ($type === null || $package['source']['type'] = strtolower($type)) {
+                $sources[] = array(
+                    'url' => $package['source']['url'],
+                    'packageName' => $package['name']
+                );
+            }
+        }
+
+        return $sources;
+    }
+
+    public function getDevSources($type=null){
+        $composerLockData = $this->getComposerLockData();
+        $sources          = array();
+        foreach ($composerLockData['packages-dev'] as $package) {
             if ($type === null || $package['source']['type'] = strtolower($type)) {
                 $sources[] = array(
                     'url' => $package['source']['url'],

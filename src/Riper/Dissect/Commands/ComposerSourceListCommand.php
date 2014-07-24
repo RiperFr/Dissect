@@ -35,7 +35,9 @@ class ComposerSourceListCommand extends Command
                 null,
                 InputOption::VALUE_NONE,
                 'Group by vendor'
-            )*/->setDescription('List all repository sources');
+            )*/
+            ->addOption('output-csv', null, InputOption::VALUE_REQUIRED, 'Generate a CSV file with all packages')
+            ->setDescription('List all repository sources');
     }
 
     /**
@@ -63,11 +65,72 @@ class ComposerSourceListCommand extends Command
 
         $ComposerService = new ComposerSourcesService($composerLockContent, $serializer);
 
-        $sources = $ComposerService->getSources($input->getOption('include-dev'));
+        /**
+         * get sources :
+         */
+        $sources   = $ComposerService->getSources();
+        $sourceDev = array(0);
+        if ($input->getOption('include-dev')) {
+            $sourceDev = $ComposerService->getDevSources();
+        }
 
+
+        /**
+         * Display result in console
+         */
+        $output->writeln('<comment>Packages :</comment>');
+        $output->writeln('');
         foreach ($sources as $source) {
             $name = str_pad($source['packageName'], 35);
             $output->writeln($name . ' : ' . $source['url']);
+        }
+        if ($input->getOption('include-dev')) {
+            $output->writeln('');
+            $output->writeln('<comment>Packages dev:</comment>');
+            $output->writeln('');
+            foreach ($sourceDev as $source) {
+                $name = str_pad($source['packageName'], 35);
+                $output->writeln($name . ' : ' . $source['url']);
+            }
+        }
+
+
+
+        if ($input->getOption('output-csv')) {
+
+            /**
+             * Structure data for file output
+             */
+            array_walk(
+                $sources,
+                function (&$item) {
+                    $item['type'] = 'require';
+                }
+            );
+            array_walk(
+                $sourceDev,
+                function (&$item) {
+                    $item['type'] = 'require-dev';
+                }
+            );
+            $sources = array_merge($sources, $sourceDev);
+            $keys    = array_keys($sources[0]);
+
+
+
+            /**
+             * output result in csv
+             */
+            $csv     = implode(',', $keys) . "\n";
+            foreach ($sources as $source) {
+                $csv .= implode(',',array_values($source)) . "\n";
+            }
+            $output->writeln('');
+            $output->writeln('');
+            $output->write('Writing "'.$input->getOption('output-csv').'"...');
+            $csv = trim($csv);
+            file_put_contents($input->getOption('output-csv'), $csv);
+            $output->writeln('done');
         }
 
     }
