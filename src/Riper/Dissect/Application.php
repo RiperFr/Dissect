@@ -22,9 +22,9 @@ use Symfony\Component\Console\Input\ArrayInput;
  */
 class Application extends AbstractApplication
 {
-    public function __construct()
+    public function __construct($version='dev')
     {
-        parent::__construct('Dissect', 'dev');
+        parent::__construct('Dissect', $version);
         $this->add(new CoverageMergeCommand());
         $this->add(new CoverageStatsCommand());
         $this->add(new ComposerSourceListCommand());
@@ -40,20 +40,6 @@ class Application extends AbstractApplication
      */
     public function doRun(InputInterface $input, OutputInterface $output)
     {
-        if (!$input->hasParameterOption('--quiet')) {
-            $output->write(
-                sprintf(
-                    "Dissect %s by Riper.\n\n",
-                    $this->getVersion()
-                )
-            );
-        }
-
-        if ($input->hasParameterOption('--version')
-            || $input->hasParameterOption('-V')
-        ) {
-            exit;
-        }
 
         parent::doRun($input, $output);
     }

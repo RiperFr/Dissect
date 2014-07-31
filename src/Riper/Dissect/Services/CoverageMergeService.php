@@ -125,7 +125,6 @@ class CoverageMergeService
     {
         $mergedCoverage = $this->codeCoverageFactory->getCodeCoverage();
         $mergedCoverage->setProcessUncoveredFilesFromWhitelist(true);
-
         foreach ($this->coverageReports as $coverageReportFile) {
             $_coverage = include($coverageReportFile);
             //Be careful, the $coverage variable is override in the included file !
@@ -142,19 +141,25 @@ class CoverageMergeService
     public function generate()
     {
         $coverage = $this->mergeReports();
+        echo " ";
         $htmlWriter   = $this->writerFactory->getHTMLWriter($this->lowUpperBound, $this->highLowerBound, $this->generator);
+
         $XMLWriter = $this->writerFactory->getCloverXMLWriter();
         $htmlWriter->process($coverage, $this->outputHTMLReportFolder);
         $XMLWriter->process($coverage,$this->outputXMLReportFile,'yellowSubMarine');
 
         if ($this->OutputPhpUnitCoverageXmlDirectory) {
             $phpUnitCoverageWriter = $this->writerFactory->getXMLWriter();
+            //echo " - phpunitXMLWriter got ";
             $phpUnitCoverageWriter->process($coverage, $this->OutputPhpUnitCoverageXmlDirectory);
+            //echo " - phpunitXml done ";
         }
 
         if ($this->outputPHPReportFile) {
             $phpUnitCoverageWriter = $this->writerFactory->getPhpWriter();
+            //echo " - phpunitWriter got ";
             $phpUnitCoverageWriter->process($coverage, $this->outputPHPReportFile);
+           // echo " - phpunit done ";
         }
     }
 }
