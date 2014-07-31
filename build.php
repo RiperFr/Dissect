@@ -28,10 +28,11 @@ echo "Creating phar object\n";
 $phar = new \Phar($filename, 0, 'dissect.phar');
 $phar->setSignatureAlgorithm(\Phar::SHA1);
 $phar->startBuffering();
+$phar->convertToExecutable(Phar::ZIP);
 
 echo "Looking for files to include\n";
 $files   = array_merge(rglob('*.*'));
-$exclude = '!(\\.git)|(\\.svn)|(test)|(tests)!i';
+$exclude = '!(\\.git)|(\\.svn)!i';
 echo "Adding files to phar\n";
 $nb = count($files);
 $c =0;
@@ -50,7 +51,6 @@ foreach ($files as $file) {
 echo "Adding Stub to phar\n";
 $phar->setStub(
     <<<STUB
-    #!/usr/bin/env php
 <?php
 
 Phar::mapPhar('dissect.phar');
