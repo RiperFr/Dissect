@@ -49,8 +49,8 @@ foreach ($files as $file) {
 }
 
 echo "Adding Stub to phar\n";
-$phar->setStub(
-    <<<STUB
+$phar->setStub(<<<STUB
+#!/usr/bin/env php
 <?php
 
 Phar::mapPhar('dissect.phar');
