@@ -60,6 +60,11 @@ class CoverageMergeCommand extends Command
                 'f',
                 InputOption::VALUE_REQUIRED,
                 'List of coverage file separated by comma'
+            )->addOption(
+                'php-ini',
+                null,
+                InputOption::VALUE_REQUIRED,
+                'Php ini options with key=value&key format'
             );
     }
 
@@ -74,6 +79,16 @@ class CoverageMergeCommand extends Command
     protected function execute(InputInterface $input, OutputInterface $output)
     {
 
+
+        $php_ini_option = $input->getOption('php-ini');
+        if ($php_ini_option) {
+            $params = explode('&', $php_ini_option);
+            foreach ($params as $param) {
+                list ($key, $value) = explode('=', $param);
+                $value = urldecode($value);
+                ini_set($key, $value);
+            }
+        }
 
         $CoverageReportMerge = new CoverageMergeService(new WriterFactory(), new CodeCoverageFactory());
 
