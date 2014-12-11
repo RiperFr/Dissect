@@ -190,15 +190,18 @@ class CoverageStatsService
                 $classData['metrics']['coveredStatements'] = $metric->getAttribute('coveredstatements');
                 $classData['metrics']['elements']          = $metric->getAttribute('elements');
                 $classData['metrics']['coveredElements']   = $metric->getAttribute('coveredelements');
+
                 $classData['metrics']['coveredElementsPercent']
-                                                           =
-                    ($classData['metrics']['coveredElements'] / $classData['metrics']['elements']) * 100;
+                                                           = $classData['metrics']['elements'] != 0 ?
+                    ($classData['metrics']['coveredElements'] / $classData['metrics']['elements']) * 100 : 100;
+
                 $classData['metrics']['coveredMethodsPercent']
-                                                           =
-                    ($classData['metrics']['coveredMethods'] / $classData['metrics']['methods']) * 100;
+                                                           =  $classData['metrics']['methods'] != 0 ?
+                    ($classData['metrics']['coveredMethods'] / $classData['metrics']['methods']) * 100 : 100;
+
                 $classData['metrics']['coveredStatementsPercent']
-                                                           =
-                    ($classData['metrics']['coveredStatements'] / $classData['metrics']['statements']) * 100;
+                                                           =  $classData['metrics']['statements'] != 0 ?
+                    ($classData['metrics']['coveredStatements'] / $classData['metrics']['statements']) * 100 : 100;
             }
 
             $methods              = $xpath->query(".//line[@type='method']", $fileNode);
